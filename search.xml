@@ -65,6 +65,7 @@
 <p>即可一键部署至GitHub。如果在此步骤报错，应该是没设置<code>git config --global user.email | user.name</code>，在终端中键入以下命令，重新<code>hexo d</code>一下就可以啦：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.email <span class="string">&quot;GitHub邮箱&quot;</span></span><br><span class="line">git config --global user.name <span class="string">&quot;GitHub用户名&quot;</span></span><br></pre></td></tr></table></figure>
 <p>稍等片刻，在浏览器输入<code>https://用户名.github.io</code>即可访问个人网页啦。<br>此时，个人网页已经被部署到GitHub上，在别的设备上输入这个网址也可以访问到这个网站。</p>
+<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>如果被这篇文章帮助到了，就请关注收藏一下笔者的<a href="https://capetdevalois.github.io/">个人主页</a>吧~<br>笔者的资源网站<a href="https://onecloud--capetdevalois.repl.co/">小卡佩的垃圾场</a>也欢迎各位下载、使用上面的资源哦~<br><strong>笔者邮箱：<a href="mailto:2703998852@qq.com">2703998852@qq.com</a></strong><br>如果有什么建议或者疑问，就请给笔者写电子邮件哦~</p>
 ]]></content>
       <categories>
         <category>计算机</category>
