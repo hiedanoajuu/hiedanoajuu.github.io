@@ -1199,7 +1199,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #4f6a49;
+  background: #1899ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1517,9 +1517,6 @@ pre .javascript .function {
   background: transparent;
   margin: 8px -10px -20px;
   opacity: 0;
-}
-.back-to-top span {
-  display: none;
 }
 .back-to-top.back-to-top-on {
   cursor: pointer;
