@@ -7,9 +7,9 @@ const ap = new APlayer({
     lrcType: 0,
     audio: [
         {
-            name: "幻想郷 ～ Lotus Land Story",
+            name: "Witching Dream",
             artist: "上海アリス幻樂団",
-            url: "http://music.163.com/song/media/outer/url?id=510025.mp3",
+            url: "http://music.163.com/song/media/outer/url?id=510030.mp3",
             cover:
                 "https://p1.music.126.net/zM4G5cgsfQxsgDftD4RJIw==/109951169299510813.jpg",
         }
