@@ -7,9 +7,9 @@ const ap = new APlayer({
     lrcType: 0,
     audio: [
         {
-            name: "Selene's light",
+            name: "装飾戦 ～ Decoration Battle",
             artist: "上海アリス幻樂団",
-            url: "http://music.163.com/song/media/outer/url?id=510035.mp3",
+            url: "http://music.163.com/song/media/outer/url?id=510039.mp3",
             cover:
                 "https://p1.music.126.net/zM4G5cgsfQxsgDftD4RJIw==/109951169299510813.jpg",
         }
