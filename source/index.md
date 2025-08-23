@@ -9,7 +9,7 @@ I’m 稗田 阿柔(Hiedano Ajuu) - a high school student from Nanjing, China�
 Here you’ll find a blend of my passions:
 
 - 🎮 **Touhou Project Fanworks** - Dive into my stories and creations inspired by the Touhou universe and the real world.
-- 📜 **Historical Translations** - 📜 Historical Translations - Exploring history through translations of historical texts (primarily in English).
+- 📜 **Historical Translations** - Exploring history through translations of historical texts (primarily in English).
 - 💻 **Computer Science Notes** - Clear, practical, simple study notes on programming and computer science.
 
 This site is primarily in English🇺🇸. 
