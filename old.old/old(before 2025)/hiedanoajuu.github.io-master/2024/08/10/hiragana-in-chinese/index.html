@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/dist/APlayer.min.css">
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/fa_32x32.svg">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/fa_16x16.svg">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"hiedanoajuu.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":"default"},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="寻找汉字草书书法中的“平假名”">
+<meta property="og:type" content="article">
+<meta property="og:title" content="平假名寻根——草书书法中的“平假名”">
+<meta property="og:url" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/index.html">
+<meta property="og:site_name" content="稗田 阿柔">
+<meta property="og:description" content="寻找汉字草书书法中的“平假名”">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/a.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/i.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/u.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/e.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/o.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/ka.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/ki.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/ku.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/ke.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/ko.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/sa.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/si.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/su.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/se.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/so.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/ta.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/chi.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/tsu.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/te.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/so.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/na.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/ni.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/nu.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/ne.png">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/no.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/ha.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/hi.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/fu.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/he.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/ho.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/ma.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/mi.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/mu.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/me.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/mo.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/ya.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/yu.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/ye.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/yo.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/ra.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/ri.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/ru.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/re.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/ro.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/wa.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/wi.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/we.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/wo.jpg">
+<meta property="og:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/n.jpg">
+<meta property="article:published_time" content="2024-08-10T12:27:00.000Z">
+<meta property="article:modified_time" content="2025-07-30T05:25:34.217Z">
+<meta property="article:author" content="稗田 阿柔">
+<meta property="article:tag" content="书法">
+<meta property="article:tag" content="文化">
+<meta property="article:tag" content="日本">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/a.jpg">
+
+<link rel="canonical" href="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>平假名寻根——草书书法中的“平假名” | 稗田 阿柔</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="稗田 阿柔" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <!-- aplayer -->
+  <div id="aplayer"></div>
+  <script type="text/javascript" src="/dist/APlayer.min.js"></script>
+  <script type="text/javascript" src="/dist/music.js"></script>
+
+  <div class="container">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">稗田 阿柔</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">Sanctuary of Hiedano Ajuu</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="稗田 阿柔">
+      <meta itemprop="description" content="Once seen, never forgotten.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="稗田 阿柔">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          平假名寻根——草书书法中的“平假名”
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2024-08-10 12:27:00" itemprop="dateCreated datePublished" datetime="2024-08-10T12:27:00Z">2024-08-10</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2025-07-30 05:25:34" itemprop="dateModified" datetime="2025-07-30T05:25:34Z">2025-07-30</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/zh-CN/" itemprop="url" rel="index"><span itemprop="name">zh-CN</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/zh-CN/%E6%9D%82%E9%A1%B9/" itemprop="url" rel="index"><span itemprop="name">杂项</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.7k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
+            </span>
+            <div class="post-description">寻找汉字草书书法中的“平假名”</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>平假名想必各位都很熟悉了。平假名是日语使用的一种表音文字，最初是为了写物语与和歌而用。平假名来源于汉字的草书，那么在汉字草书书法作品中，或许就能找到日语平假名的源头吧。下面我们就来看看一些日语片假名的来源。虽说有部分平假名与汉字之间的联系过于抽象，但基本上都还是能在书法作品中找到原型的。</p>
+<h1 id="あ行"><a href="#あ行" class="headerlink" title="あ行"></a>あ行</h1><h2 id="あ"><a href="#あ" class="headerlink" title="あ"></a>あ</h2><p><img src="a.jpg" alt="あ" title="あ"></p>
+<center>[晋]王羲之 《上虞帖》 “安”</center>
+
+<h2 id="い"><a href="#い" class="headerlink" title="い"></a>い</h2><p><img src="i.jpg" alt="い" title="い"></p>
+<center>[唐]李世民 《淳化阁唐太宗帖》 “以”</center>
+
+<h2 id="う"><a href="#う" class="headerlink" title="う"></a>う</h2><p><img src="u.jpg" alt="う" title="う"></p>
+<center>[唐]怀素 《草书千字文》 “宇”</center>
+
+<h2 id="え"><a href="#え" class="headerlink" title="え"></a>え</h2><p><img src="e.jpg" alt="え" title="え"></p>
+<center>[宋]黄庭坚 《廉颇蔺相如列传》 “衣”</center>
+
+<h2 id="お"><a href="#お" class="headerlink" title="お"></a>お</h2><p><img src="o.jpg" alt="お" title="お"></p>
+<center>[唐]张旭 《李青莲序》 “於(于)”</center>
+
+<h1 id="か行"><a href="#か行" class="headerlink" title="か行"></a>か行</h1><h2 id="か"><a href="#か" class="headerlink" title="か"></a>か</h2><p><img src="ka.jpg" alt="か" title="か"></p>
+<center>[宋]文天祥 《谢昌元座右自警辞》 “加”</center>
+
+<h2 id="き"><a href="#き" class="headerlink" title="き"></a>き</h2><p><img src="ki.jpg" alt="き" title="き"></p>
+<center>[唐]张旭 《李青莲序》 “幾(几)”</center>
+
+<h2 id="く"><a href="#く" class="headerlink" title="く"></a>く</h2><p><img src="ku.jpg" alt="く" title="く"></p>
+<center>[晋]王羲之 《知宝帖》 “久”</center>
+
+<h2 id="け"><a href="#け" class="headerlink" title="け"></a>け</h2><p><img src="ke.jpg" alt="け" title="け"></p>
+<center>[晋]王羲之 《一朝帖》 “計(计)”</center>
+
+<h2 id="こ"><a href="#こ" class="headerlink" title="こ"></a>こ</h2><p><img src="ko.jpg" alt="こ" title="こ"></p>
+<center>[宋]文天祥 《谢昌元座右自警辞》 “己”</center>
+
+<h1 id="さ行"><a href="#さ行" class="headerlink" title="さ行"></a>さ行</h1><h2 id="さ"><a href="#さ" class="headerlink" title="さ"></a>さ</h2><p><img src="sa.jpg" alt="さ" title="さ"></p>
+<center>[晋]王献之 《近与铁石帖》 “左”</center>
+
+<h2 id="し"><a href="#し" class="headerlink" title="し"></a>し</h2><p><img src="si.jpg" alt="し" title="し"></p>
+<center>[晋]王羲之 《其书帖》 “之”</center>
+
+<h2 id="す"><a href="#す" class="headerlink" title="す"></a>す</h2><p><img src="su.jpg" alt="す" title="す"></p>
+<center>[明]王铎 《自作诗十首》 “寸”</center>
+
+<h2 id="せ"><a href="#せ" class="headerlink" title="せ"></a>せ</h2><p><img src="se.jpg" alt="せ" title="せ"></p>
+<center>[唐]怀素 《圣母帖》 “世”</center>
+
+<h2 id="そ"><a href="#そ" class="headerlink" title="そ"></a>そ</h2><p><img src="so.jpg" alt="そ" title="そ"></p>
+<center>[唐]怀素 《自叙帖》 “曽(曾)”</center>
+
+<h1 id="た行"><a href="#た行" class="headerlink" title="た行"></a>た行</h1><h2 id="た"><a href="#た" class="headerlink" title="た"></a>た</h2><p><img src="ta.jpg" alt="た" title="た"></p>
+<center>[唐]张旭 《李青莲序》 “太”</center>
+
+<h2 id="ち"><a href="#ち" class="headerlink" title="ち"></a>ち</h2><p><img src="chi.jpg" alt="ち" title="ち"></p>
+<center>[晋]王羲之 《中郎帖》 “知”</center>
+
+<h2 id="つ"><a href="#つ" class="headerlink" title="つ"></a>つ</h2><p><img src="tsu.jpg" alt="つ" title="つ"></p>
+<center>[明]宋客 《进学解》 “川”</center>
+
+<h2 id="て"><a href="#て" class="headerlink" title="て"></a>て</h2><p><img src="te.jpg" alt="て" title="て"></p>
+<center>[唐]张旭 《李青莲序》 “天”</center>
+
+<h2 id="と"><a href="#と" class="headerlink" title="と"></a>と</h2><p><img src="so.jpg" alt="と" title="と"></p>
+<center>[唐]怀素 《四十二章经》 “止”</center>
+
+<h1 id="な行"><a href="#な行" class="headerlink" title="な行"></a>な行</h1><h2 id="な"><a href="#な" class="headerlink" title="な"></a>な</h2><p><img src="na.jpg" alt="な" title="な"></p>
+<center>[晋]谢安 《中郎帖》 “奈”</center>
+
+<h2 id="に"><a href="#に" class="headerlink" title="に"></a>に</h2><p><img src="ni.jpg" alt="に" title="に"></p>
+<center>[晋]王献之 《玄度帖》 “仁”</center>
+
+<h2 id="ぬ"><a href="#ぬ" class="headerlink" title="ぬ"></a>ぬ</h2><p><img src="nu.jpg" alt="ぬ" title="ぬ"></p>
+<center>[晋]王羲之 《大佳忧卿帖》 “奴”</center>
+
+<h2 id="ね"><a href="#ね" class="headerlink" title="ね"></a>ね</h2><p><img src="ne.png" alt="ね" title="ね"></p>
+<center>毛泽东 “祢”</center>
+
+<h2 id="の"><a href="#の" class="headerlink" title="の"></a>の</h2><p><img src="no.jpg" alt="の" title="の"></p>
+<center>[唐]怀素 《四十二章经》 “乃”</center>
+
+<h1 id="は行"><a href="#は行" class="headerlink" title="は行"></a>は行</h1><h2 id="は"><a href="#は" class="headerlink" title="は"></a>は</h2><p><img src="ha.jpg" alt="は" title="は"></p>
+<center>[明]文徵明 《早朝诗》 “波”</center>
+
+<h2 id="ひ"><a href="#ひ" class="headerlink" title="ひ"></a>ひ</h2><p><img src="hi.jpg" alt="ひ" title="ひ"></p>
+<center>[唐]孙过庭 《景福殿赋》 “比”</center>
+
+<h2 id="ふ"><a href="#ふ" class="headerlink" title="ふ"></a>ふ</h2><p><img src="fu.jpg" alt="ふ" title="ふ"></p>
+<center>[汉]张芝 《冠军帖》 “不”</center>
+
+<h2 id="へ"><a href="#へ" class="headerlink" title="へ"></a>へ</h2><p><img src="he.jpg" alt="へ" title="へ"></p>
+<center>[唐]怀素 《自叙帖》 “部”</center>
+
+<h2 id="ほ"><a href="#ほ" class="headerlink" title="ほ"></a>ほ</h2><p><img src="ho.jpg" alt="ほ" title="ほ"></p>
+<center>[晋]王羲之 《龙保帖》 “保”</center>
+
+<h1 id="ま行"><a href="#ま行" class="headerlink" title="ま行"></a>ま行</h1><h2 id="ま"><a href="#ま" class="headerlink" title="ま"></a>ま</h2><p><img src="ma.jpg" alt="ま" title="ま"></p>
+<center>[晋]王羲之 《上虞帖》 “末”</center>
+
+<h2 id="み"><a href="#み" class="headerlink" title="み"></a>み</h2><p><img src="mi.jpg" alt="み" title="み"></p>
+<center>[明]陈道复 《古诗十九首》 “美”</center>
+
+<h2 id="む"><a href="#む" class="headerlink" title="む"></a>む</h2><p><img src="mu.jpg" alt="む" title="む"></p>
+<center>[唐]怀素 《草书千字文》 “武”</center>
+
+<h2 id="め"><a href="#め" class="headerlink" title="め"></a>め</h2><p><img src="me.jpg" alt="め" title="め"></p>
+<center>[晋]王羲之 《中郎女帖》 “女”</center>
+
+<h2 id="も"><a href="#も" class="headerlink" title="も"></a>も</h2><p><img src="mo.jpg" alt="も" title="も"></p>
+<center>[明]王铎 《今夕行村外》 “毛”</center>
+
+<h1 id="や行"><a href="#や行" class="headerlink" title="や行"></a>や行</h1><h2 id="や"><a href="#や" class="headerlink" title="や"></a>や</h2><p><img src="ya.jpg" alt="や" title="や"></p>
+<center>[晋]王献之 《省前书帖》 “也”</center>
+
+<h2 id="ゆ"><a href="#ゆ" class="headerlink" title="ゆ"></a>ゆ</h2><p><img src="yu.jpg" alt="ゆ" title="ゆ"></p>
+<center>[唐]孙过庭 《书谱》 “由”</center>
+
+<h2 id="𛀁"><a href="#𛀁" class="headerlink" title="𛀁"></a>𛀁</h2><p><img src="ye.jpg" alt="𛀁" title="𛀁"></p>
+<center>[唐]怀素 《秋兴八首》 “江”</center>
+
+<h2 id="よ"><a href="#よ" class="headerlink" title="よ"></a>よ</h2><p><img src="yo.jpg" alt="よ" title="よ"></p>
+<center>[元]康里巎巎 《致彦中尺牍》 “与”</center>
+
+<h1 id="ら行"><a href="#ら行" class="headerlink" title="ら行"></a>ら行</h1><h2 id="ら"><a href="#ら" class="headerlink" title="ら"></a>ら</h2><p><img src="ra.jpg" alt="ら" title="ら"></p>
+<center>[唐]怀素 《大草千字文》 “良”</center>
+
+<h2 id="り"><a href="#り" class="headerlink" title="り"></a>り</h2><p><img src="ri.jpg" alt="り" title="り"></p>
+<center>[唐]孙过庭 《书谱》 “利”</center>
+
+<h2 id="る"><a href="#る" class="headerlink" title="る"></a>る</h2><p><img src="ru.jpg" alt="る" title="る"></p>
+<center>[唐]孙过庭 《书谱》 “留”</center>
+
+<h2 id="れ"><a href="#れ" class="headerlink" title="れ"></a>れ</h2><p><img src="re.jpg" alt="れ" title="れ"></p>
+<center>[唐]怀素 《自叙帖》 “礼”</center>
+
+<h2 id="ろ"><a href="#ろ" class="headerlink" title="ろ"></a>ろ</h2><p><img src="ro.jpg" alt="ろ" title="ろ"></p>
+<center>[元]邓文原 《书谱》 “呂(吕)”</center>
+
+<h1 id="わ行"><a href="#わ行" class="headerlink" title="わ行"></a>わ行</h1><h2 id="わ"><a href="#わ" class="headerlink" title="わ"></a>わ</h2><p><img src="wa.jpg" alt="わ" title="わ"></p>
+<center>[晋]王献之 《奉别贴》 “和”</center>
+
+<h2 id="ゐ"><a href="#ゐ" class="headerlink" title="ゐ"></a>ゐ</h2><p><img src="wi.jpg" alt="ゐ" title="ゐ"></p>
+<center>[汉]蔡琰 《胡笳帖》 “爲(为)”</center>
+
+<h2 id="ゑ"><a href="#ゑ" class="headerlink" title="ゑ"></a>ゑ</h2><p><img src="we.jpg" alt="ゑ" title="ゑ"></p>
+<center>[元]邓文原 《急就章》 “恵(惠)”</center>
+
+<h2 id="を"><a href="#を" class="headerlink" title="を"></a>を</h2><p><img src="wo.jpg" alt="を" title="を"></p>
+<center>[唐]怀素 《自叙帖》 “遠(远)”</center>
+
+<h1 id="ん"><a href="#ん" class="headerlink" title="ん"></a>ん</h1><p><img src="n.jpg" alt="ん" title="ん"></p>
+<center>[明]王铎 《临唐太宗帖》 “無(无)”</center>
+
+<h1 id="一些统计"><a href="#一些统计" class="headerlink" title="一些统计"></a>一些统计</h1>
+    <div id="echarts34" style="width: 85%;height: 400px;margin: 0 auto"></div>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@4.9.0/dist/echarts.min.js"></script>
+
+    <script type="text/javascript">
+            // 基于准备好的dom，初始化echarts实例
+            var myChart = echarts.init(document.getElementById('echarts34'));
+            // 指定图表的配置项和数据
+            var option = {
+    title: {
+        text: '书法家贡献统计图(三次以上)'
+    },
+    tooltip: {},
+    legend: {
+        data:['贡献']
+    },
+    xAxis: {
+        data: ["怀素","王羲之","孙过庭","王献之","张旭","王铎"]
+    },
+    yAxis: {},
+    series: [{
+        name: '贡献',
+        type: 'bar',
+        data: [11, 9, 4, 4, 4, 3]
+    }]
+};
+            // 使用刚指定的配置项和数据显示图表。
+            myChart.setOption(option);
+    </script>
+    
+
+    <div id="echarts2010" style="width: 85%;height: 400px;margin: 0 auto"></div>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@4.9.0/dist/echarts.min.js"></script>
+
+    <script type="text/javascript">
+            // 基于准备好的dom，初始化echarts实例
+            var myChart = echarts.init(document.getElementById('echarts2010'));
+            // 指定图表的配置项和数据
+            var option = {
+    title: {
+        text: '朝代变化统计图'
+    },
+    tooltip: {},
+    legend: {
+        data:['贡献']
+    },
+    xAxis: {
+        data: ["汉","晋","唐","宋","元","明","清及以后"]
+    },
+    yAxis: {},
+    series: [{
+        name: '贡献',
+        type: 'line',
+        data: [2, 14, 20, 3, 3, 6, 1]
+    }]
+};
+            // 使用刚指定的配置项和数据显示图表。
+            myChart.setOption(option);
+    </script>
+    
+<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>平假名作为日语重要的表音符号，有着深远的历史。平假名由汉字的草书演变而来，从中我们便能一窥古代中日文化交流的情况。</p>
+
+    </div>
+
+    
+    
+    
+    
+      <div>
+        <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">~~~~~~~~~~~~~~ That’s all for now <i class="fa fa-paw"></i> thank you for your reading. ~~~~~~~~~~~~~~</div>
+    
+</div>
+
+      </div>
+    
+        <div class="reward-container">
+  <div></div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.png" alt="稗田 阿柔 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/images/alipay.png" alt="稗田 阿柔 支付宝">
+        <p>支付宝</p>
+      </div>
+
+  </div>
+</div>
+
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>稗田 阿柔
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/" title="平假名寻根——草书书法中的“平假名”">https://hiedanoajuu.github.io/2024/08/10/hiragana-in-chinese/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          
+          <div class="post-tags">
+              <a href="/tags/%E4%B9%A6%E6%B3%95/" rel="tag"><i class="fa fa-tag"></i> 书法</a>
+              <a href="/tags/%E6%96%87%E5%8C%96/" rel="tag"><i class="fa fa-tag"></i> 文化</a>
+              <a href="/tags/%E6%97%A5%E6%9C%AC/" rel="tag"><i class="fa fa-tag"></i> 日本</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2024/08/07/akyuu/" rel="prev" title="博丽神社及大结界管理委员会 人类村落居民委员会讣告 稗田阿求同志逝世">
+      <i class="fa fa-chevron-left"></i> 博丽神社及大结界管理委员会 人类村落居民委员会讣告 稗田阿求同志逝世
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2025/01/11/egypt-maps/" rel="next" title="埃及地图">
+      埃及地图 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E3%81%82%E8%A1%8C"><span class="nav-number">1.</span> <span class="nav-text">あ行</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%82"><span class="nav-number">1.1.</span> <span class="nav-text">あ</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%84"><span class="nav-number">1.2.</span> <span class="nav-text">い</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%86"><span class="nav-number">1.3.</span> <span class="nav-text">う</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%88"><span class="nav-number">1.4.</span> <span class="nav-text">え</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%8A"><span class="nav-number">1.5.</span> <span class="nav-text">お</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E3%81%8B%E8%A1%8C"><span class="nav-number">2.</span> <span class="nav-text">か行</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%8B"><span class="nav-number">2.1.</span> <span class="nav-text">か</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%8D"><span class="nav-number">2.2.</span> <span class="nav-text">き</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%8F"><span class="nav-number">2.3.</span> <span class="nav-text">く</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%91"><span class="nav-number">2.4.</span> <span class="nav-text">け</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%93"><span class="nav-number">2.5.</span> <span class="nav-text">こ</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E3%81%95%E8%A1%8C"><span class="nav-number">3.</span> <span class="nav-text">さ行</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%95"><span class="nav-number">3.1.</span> <span class="nav-text">さ</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%97"><span class="nav-number">3.2.</span> <span class="nav-text">し</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%99"><span class="nav-number">3.3.</span> <span class="nav-text">す</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%9B"><span class="nav-number">3.4.</span> <span class="nav-text">せ</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%9D"><span class="nav-number">3.5.</span> <span class="nav-text">そ</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E3%81%9F%E8%A1%8C"><span class="nav-number">4.</span> <span class="nav-text">た行</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%9F"><span class="nav-number">4.1.</span> <span class="nav-text">た</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%A1"><span class="nav-number">4.2.</span> <span class="nav-text">ち</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%A4"><span class="nav-number">4.3.</span> <span class="nav-text">つ</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%A6"><span class="nav-number">4.4.</span> <span class="nav-text">て</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%A8"><span class="nav-number">4.5.</span> <span class="nav-text">と</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E3%81%AA%E8%A1%8C"><span class="nav-number">5.</span> <span class="nav-text">な行</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%AA"><span class="nav-number">5.1.</span> <span class="nav-text">な</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%AB"><span class="nav-number">5.2.</span> <span class="nav-text">に</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%AC"><span class="nav-number">5.3.</span> <span class="nav-text">ぬ</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%AD"><span class="nav-number">5.4.</span> <span class="nav-text">ね</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%AE"><span class="nav-number">5.5.</span> <span class="nav-text">の</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E3%81%AF%E8%A1%8C"><span class="nav-number">6.</span> <span class="nav-text">は行</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%AF"><span class="nav-number">6.1.</span> <span class="nav-text">は</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%B2"><span class="nav-number">6.2.</span> <span class="nav-text">ひ</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%B5"><span class="nav-number">6.3.</span> <span class="nav-text">ふ</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%B8"><span class="nav-number">6.4.</span> <span class="nav-text">へ</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%BB"><span class="nav-number">6.5.</span> <span class="nav-text">ほ</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E3%81%BE%E8%A1%8C"><span class="nav-number">7.</span> <span class="nav-text">ま行</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%BE"><span class="nav-number">7.1.</span> <span class="nav-text">ま</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%BF"><span class="nav-number">7.2.</span> <span class="nav-text">み</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%82%80"><span class="nav-number">7.3.</span> <span class="nav-text">む</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%82%81"><span class="nav-number">7.4.</span> <span class="nav-text">め</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%82%82"><span class="nav-number">7.5.</span> <span class="nav-text">も</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E3%82%84%E8%A1%8C"><span class="nav-number">8.</span> <span class="nav-text">や行</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%82%84"><span class="nav-number">8.1.</span> <span class="nav-text">や</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%82%86"><span class="nav-number">8.2.</span> <span class="nav-text">ゆ</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%F0%9B%80%81"><span class="nav-number">8.3.</span> <span class="nav-text">𛀁</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%82%88"><span class="nav-number">8.4.</span> <span class="nav-text">よ</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E3%82%89%E8%A1%8C"><span class="nav-number">9.</span> <span class="nav-text">ら行</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%82%89"><span class="nav-number">9.1.</span> <span class="nav-text">ら</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%82%8A"><span class="nav-number">9.2.</span> <span class="nav-text">り</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%82%8B"><span class="nav-number">9.3.</span> <span class="nav-text">る</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%82%8C"><span class="nav-number">9.4.</span> <span class="nav-text">れ</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%82%8D"><span class="nav-number">9.5.</span> <span class="nav-text">ろ</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E3%82%8F%E8%A1%8C"><span class="nav-number">10.</span> <span class="nav-text">わ行</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%82%8F"><span class="nav-number">10.1.</span> <span class="nav-text">わ</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%82%90"><span class="nav-number">10.2.</span> <span class="nav-text">ゐ</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%82%91"><span class="nav-number">10.3.</span> <span class="nav-text">ゑ</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%82%92"><span class="nav-number">10.4.</span> <span class="nav-text">を</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E3%82%93"><span class="nav-number">11.</span> <span class="nav-text">ん</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80%E4%BA%9B%E7%BB%9F%E8%AE%A1"><span class="nav-number">12.</span> <span class="nav-text">一些统计</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BB%93%E8%AF%AD"><span class="nav-number">13.</span> <span class="nav-text">结语</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="稗田 阿柔"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">稗田 阿柔</p>
+  <div class="site-description" itemprop="description">Once seen, never forgotten.</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">28</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">22</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">26</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/hiedanoajuu" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;hiedanoajuu" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:hiedanoajuu@disroot.org" title="E-Mail → mailto:hiedanoajuu@disroot.org" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://stackoverflow.com/users/31177062/hiedanoajuu" title="StackOverflow → https:&#x2F;&#x2F;stackoverflow.com&#x2F;users&#x2F;31177062&#x2F;hiedanoajuu" rel="noopener" target="_blank"><i class="fab fa-stack-overflow fa-fw"></i>StackOverflow</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/hiedanoajuu" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;hiedanoajuu" rel="noopener" target="_blank"><i class="fab fa-twitter fa-fw"></i>Twitter</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/atom.xml" title="RSS → &#x2F;atom.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.zhihu.com/people/hiedano_ajuu" title="Zhihu → https:&#x2F;&#x2F;www.zhihu.com&#x2F;people&#x2F;hiedano_ajuu" rel="noopener" target="_blank"><i class="fa fa-lightbulb fa-fw"></i>Zhihu</a>
+      </span>
+  </div>
+
+
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title"><i class="fa fa-link fa-fw"></i>
+      Recommended Links
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://github.com/HiedanoAjuu/Ajuu-s-repository" title="https:&#x2F;&#x2F;github.com&#x2F;HiedanoAjuu&#x2F;Ajuu-s-repository" rel="noopener" target="_blank">Ajuu's Repository</a>
+        </li>
+    </ul>
+  </div>
+
+      </div>
+        <div class="back-to-top motion-element">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">稗田 阿柔</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="Symbols count total">74k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="Reading time total">1:07</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a>
+  </div>
+  <div id="site-runtime">
+    <span class="post-meta-item-icon">
+        <i class="fa fa-clock-o"></i>
+    </span>
+    <span id="runtime"></span>
+</div>
+
+ <script language="javascript">
+    function isPC() {
+        var userAgentInfo = navigator.userAgent;
+        var agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"];
+        for (var i = 0; i < agents.length; i++) {
+            if (userAgentInfo.indexOf(agents[i]) > 0) {
+                return false;
+            }
+        }
+        return true;
+}
+
+    function siteTime(openOnPC, start) {
+        window.setTimeout("siteTime(openOnPC, start)", 1000);
+        var seconds = 1000;
+        var minutes = seconds * 60;
+        var hours = minutes * 60;
+        var days = hours * 24;
+        var years = days * 365;
+            start = new Date("2023-08-23 15:24:00 +0800");
+        var now = new Date();
+        var year = now.getFullYear();
+        var month = now.getMonth() + 1;
+        var date = now.getDate();
+        var hour = now.getHours();
+        var minute = now.getMinutes();
+        var second = now.getSeconds();
+        var diff = now - start;
+
+        var diffYears = Math.floor(diff / years);
+        var diffDays = Math.floor((diff / days) - diffYears * 365);
+        var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+        var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
+        var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
+
+        if (openOnPC) {
+            if (diffYears == 0){
+                document.getElementById("runtime").innerHTML = "This site has running for: " + diffDays + "d " + diffHours + "h " + diffMinutes + "m " + diffSeconds + "s";
+            }else{
+                document.getElementById("runtime").innerHTML = "This site has running for: " + diffYears + "y " + diffDays + "d " + diffHours + "h " + diffMinutes + "m " + diffSeconds + "s";
+            }
+        } else {
+            if (y == 0){
+                document.getElementById("runtime").innerHTML = "This site has running for: " + diffDays + "d " + diffHours + "h " + diffMinutes + "m " + diffSeconds + "s";
+            }else{
+                document.getElementById("runtime").innerHTML = "This site has running for: " + diffYears + "y " + diffDays + "d " + diffHours + "h " + diffMinutes + "m " + diffSeconds + "s";
+            }
+       
+        }
+    }
+
+    var showOnMobile = false;
+    var openOnPC = isPC();
+    var start = new Date();
+    siteTime(openOnPC, start);
+
+    if (!openOnPC && !showOnMobile) {
+        document.getElementById('site-runtime').style.display = 'none';
+    }
+</script>
+
+
+
+
+        
+<div class="busuanzi-count">
+  <script data-pjax async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="Total Visitors">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="Total Views">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  
+  <script color='0,0,0' opacity='1' zIndex='-1' count='99' src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/pjax/pjax.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '.languages',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.dataset.pjax !== undefined) {
+      script.dataset.pjax = '';
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="pjax">
+  
+
+  
+
+  
+
+    </div>
+<script async>window.onload=function(){var a=document.createElement('script'),b=document.getElementsByTagName('script')[0];a.type='text/javascript',a.async=!0,a.src='/sw-register.js?v='+Date.now(),b.parentNode.insertBefore(a,b)};</script></body></html>

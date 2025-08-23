@@ -1,0 +1,70 @@
+code {
+    color: #ff7600;
+    background: #fbf7f8;
+    margin: 2px;
+}
+.deflaut, pre {
+    margin: 5px 0;
+    padding: 5px;
+}
+.deflaut, code, pre {
+    border: 1px solid #d6d6d6;
+}
+
+.post-block {
+    opacity: 0.9;
+}
+/*侧边框的透明度设置*/
+.sidebar {
+    background-color: transparent;
+    opacity: 0.9;
+}
+/*菜单栏的透明度设置*/
+.header-inner {
+    background: rgba(255,255,255,0.9);
+}
+/*如果设置了本地搜索，设置它的透明度*/
+.popup {
+    opacity: 0.9;
+}
+
+@font-face{
+    font-family: 'RuiZH';
+    src: url('/fonts/fzrzh.ttf'); 
+}
+@font-face{
+    font-family: 'WHJZT';
+    src: url('/fonts/fzzj-whjzt.ttf'); 
+}
+@font-face{
+    font-family: 'consola';
+    src: url('/fonts/consola.ttf');   
+}
+@font-face{
+    font-family: 'TH-Times';
+    src: url('/fonts/th-times.ttf');   
+}
+@font-face{
+    font-family: 'times-new-roman';
+    src: url('/fonts/times-new-roman.ttf');   
+}
+@font-face{
+    font-family: 'opensans';
+    src: url('/fonts/opensans.ttf');   
+}
+.links-of-author-item a {
+  display: flex !important;
+  white-space: nowrap !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
+  max-width: none !important;
+  justify-content: flex-start !important /* 左对齐 */;
+  align-items: center !important /* 垂直居中 */;
+  text-align: left !important;
+}
+.post-body {
+  min-height: 100vh !important;
+}
+.post-block {
+  min-height: 130vh !important;
+}
