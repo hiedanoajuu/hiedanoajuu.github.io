@@ -416,7 +416,7 @@ pre {
 }
 pre,
 code {
-  font-family: 'consola', consolas, Menlo, monospace, "PingFang SC", "Microsoft YaHei";
+  font-family: 'sourcecode', consolas, Menlo, monospace, "PingFang SC", "Microsoft YaHei";
 }
 code {
   background: #eee;
@@ -1199,7 +1199,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #1745ba;
+  background: #a74d17;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2757,28 +2757,12 @@ pre {
   opacity: 0.9;
 }
 @font-face {
-  font-family: 'RuiZH';
-  src: url("/fonts/fzrzh.ttf");
-}
-@font-face {
-  font-family: 'WHJZT';
-  src: url("/fonts/fzzj-whjzt.ttf");
-}
-@font-face {
-  font-family: 'consola';
-  src: url("/fonts/consola.ttf");
-}
-@font-face {
-  font-family: 'TH-Times';
-  src: url("/fonts/th-times.ttf");
-}
-@font-face {
-  font-family: 'times-new-roman';
-  src: url("/fonts/times-new-roman.ttf");
-}
-@font-face {
   font-family: 'opensans';
   src: url("/fonts/opensans.ttf");
+}
+@font-face {
+  font-family: 'sourcecode';
+  src: url("/fonts/sourcecode.otf");
 }
 .links-of-author-item a {
   display: flex !important;
