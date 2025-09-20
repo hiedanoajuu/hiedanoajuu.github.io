@@ -15,11 +15,8 @@ keywords:
   - Chinese poetry translation
 description: An English translation of Dai Wangshu's iconic modern Chinese poem <em>A Lane in Rain</em>.
 ---
-***A Lane in the Rain***
-***《雨巷》(Yu Xiang)***
-
-**By Dai Wangshu (戴 望舒)**
-**Translated by Hiedano Ajuu (稗田 阿柔)**
+By **Dai Wangshu**
+Translated by **Hiedano Ajuu**
 
 Beneath an oiled-paper umbrella, I linger
 Down a long and lonely lane.
@@ -57,11 +54,11 @@ Down a long and lonely lane.
 I long to meet once more
 The lilac maiden gliding through my faint dream.
 
----
-The rhythm of a poem lies not in the words themselves, but in the emotion they convey.
-
-Strict rhythm and forced words can spoil the emotion, rendering it unnatural. It is as if putting oneself in someone else's shoes, bending emotion to rigid and shallow rules. The inferior mutilate themselves to fit the shoes (a Chinese metaphor for acting in a Procrustean way). The clever choose the pair that fits. The wise craft their own to their measure.
-
-Modern Chinese Poetry needs to have new emotions to express and suitable techniques of expression. Techniques do not mean arranging words superficially or stuffing a poem with ornate phrases.
-
-— Excerpt from Dai Wanshu, *Poetics (Shi Lun, 诗论)*, translated by Hiedano Ajuu.
+<br>
+> The rhythm of a poem lies not in the words themselves, but in the emotion they convey.
+>
+> Strict rhythm and forced words can spoil the emotion, rendering it unnatural. It is as if putting oneself in someone else's shoes, bending emotion to rigid and shallow rules. The inferior mutilate themselves to fit the shoes (a Chinese metaphor for acting in a Procrustean way). The clever choose the pair that fits. The wise craft their own to their measure.
+>
+> Modern Chinese Poetry needs to have new emotions to express and suitable techniques of expression. Techniques do not mean arranging words superficially or stuffing a poem with ornate phrases.
+>
+> *— Excerpt from Dai Wanshu, Poetics, translated by Hiedano Ajuu.*

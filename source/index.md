@@ -17,6 +17,7 @@ This site is primarily in English🇺🇸.
 ---
 
 📢 **Latest Updates**
+- 2025-09-20: Translated [*The Spring*](https://hiedanoajuu.github.io/2025/09/20/spring/) by Mu Dan into English.
 - 2025-09-13: Translated [*A Lane in Rain*](https://hiedanoajuu.github.io/2025/09/13/lane-in-rain/) by Dai Wanshu into English.
 - 2025-08-23: Revamped the blog.
 
