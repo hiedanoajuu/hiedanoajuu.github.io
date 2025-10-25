@@ -2,7 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://hiedanoajuu.github.io/quotes/quotes.json</loc>
+    <loc>https://ajuu.org/2025/09/13/lane-in-rain/</loc>
+    
+    <lastmod>2025-10-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ajuu.org/2025/09/20/spring/</loc>
+    
+    <lastmod>2025-10-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ajuu.org/index.html</loc>
+    
+    <lastmod>2025-10-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ajuu.org/quotes/quotes.json</loc>
     
     <lastmod>2025-10-18</lastmod>
     
@@ -11,34 +38,7 @@
   </url>
   
   <url>
-    <loc>https://hiedanoajuu.github.io/index.html</loc>
-    
-    <lastmod>2025-10-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiedanoajuu.github.io/2025/09/20/spring/</loc>
-    
-    <lastmod>2025-09-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiedanoajuu.github.io/2025/09/13/lane-in-rain/</loc>
-    
-    <lastmod>2025-09-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiedanoajuu.github.io/2025/08/24/hello-world/</loc>
+    <loc>https://ajuu.org/2025/08/24/hello-world/</loc>
     
     <lastmod>2025-08-23</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://hiedanoajuu.github.io/tags/index.html</loc>
+    <loc>https://ajuu.org/tags/index.html</loc>
     
     <lastmod>2025-08-23</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://hiedanoajuu.github.io/categories/index.html</loc>
+    <loc>https://ajuu.org/categories/index.html</loc>
     
     <lastmod>2025-08-23</lastmod>
     
@@ -66,51 +66,51 @@
   
 
   <url>
-    <loc>https://hiedanoajuu.github.io/</loc>
-    <lastmod>2025-10-19</lastmod>
+    <loc>https://ajuu.org/</loc>
+    <lastmod>2025-10-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://hiedanoajuu.github.io/tags/Dai-Wangshu/</loc>
-    <lastmod>2025-10-19</lastmod>
+    <loc>https://ajuu.org/tags/Dai-Wangshu/</loc>
+    <lastmod>2025-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hiedanoajuu.github.io/tags/Translation/</loc>
-    <lastmod>2025-10-19</lastmod>
+    <loc>https://ajuu.org/tags/Translation/</loc>
+    <lastmod>2025-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hiedanoajuu.github.io/tags/Modern-Chinese-Poetry/</loc>
-    <lastmod>2025-10-19</lastmod>
+    <loc>https://ajuu.org/tags/Modern-Chinese-Poetry/</loc>
+    <lastmod>2025-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hiedanoajuu.github.io/tags/Symbolism/</loc>
-    <lastmod>2025-10-19</lastmod>
+    <loc>https://ajuu.org/tags/Symbolism/</loc>
+    <lastmod>2025-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hiedanoajuu.github.io/tags/Mu-Dan/</loc>
-    <lastmod>2025-10-19</lastmod>
+    <loc>https://ajuu.org/tags/Mu-Dan/</loc>
+    <lastmod>2025-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hiedanoajuu.github.io/tags/Modernism/</loc>
-    <lastmod>2025-10-19</lastmod>
+    <loc>https://ajuu.org/tags/Modernism/</loc>
+    <lastmod>2025-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -118,15 +118,15 @@
 
   
   <url>
-    <loc>https://hiedanoajuu.github.io/categories/Translations/</loc>
-    <lastmod>2025-10-19</lastmod>
+    <loc>https://ajuu.org/categories/Translations/</loc>
+    <lastmod>2025-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hiedanoajuu.github.io/categories/Translations/Chinese-Literature/</loc>
-    <lastmod>2025-10-19</lastmod>
+    <loc>https://ajuu.org/categories/Translations/Chinese-Literature/</loc>
+    <lastmod>2025-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
