@@ -4,16 +4,16 @@
 
 # Site
 title: 稗田 阿柔
-subtitle: 'Sanctuary of Hiedano Ajuu'
+subtitle: 'Sanctuary of Ajuu Hieda'
 description: 'Once seen, never forgotten.'
 keywords: Memories of Gensokyo
-author: 稗田 阿柔
+author: Ajuu Hieda
 language: en-US
 timezone: GMT
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://hiedanoajuu.github.io
+url: https://ajuu.org
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
