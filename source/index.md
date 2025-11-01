@@ -9,7 +9,7 @@ I’m Hieda no Ajuu (稗田 阿柔) — a high school student from Nanjing, Chin
 Here you’ll find a blend of my passions:
 
 - 🎮 **Touhou Project Fanworks** — Dive into my stories and creations inspired by the Touhou universe and the real world.
-- 📜 **Translations of History & Literature** - Explore history and culturesthrough translations of historical and literary texts, primarily from Chinese into English.
+- 📜 **Translations of History & Literature** — Explore history and culturesthrough translations of historical and literary texts, primarily from Chinese into English.
 - 💻 **Computer Science Notes** — Clear, practical, simple study notes on programming and computer science.
 
 This site is primarily in English🇺🇸. 
