@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World!</title>
+    <url>/2025/08/24/hello-world/</url>
+    <content><![CDATA[<p>Hello World!</p>
+]]></content>
+  </entry>
+  <entry>
     <title>A Lane in Rain</title>
     <url>/2025/09/13/lane-in-rain/</url>
     <content><![CDATA[<p>By <strong>Dai Wangshu</strong><br>Translated by <strong>Ajuu Hieda</strong></p>
@@ -30,12 +36,6 @@
         <tag>Modern Chinese Poetry</tag>
         <tag>Symbolism</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World!</title>
-    <url>/2025/08/24/hello-world/</url>
-    <content><![CDATA[<p>Hello World!</p>
-]]></content>
   </entry>
   <entry>
     <title>The Spring</title>
