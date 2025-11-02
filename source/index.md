@@ -39,5 +39,8 @@ fetch('/quotes/quotes.json')
 
 ![稗田 阿求 (Hieda no Akyuu)](/images/akyuu.jpg "稗田 阿求 (Hieda no Akyuu)")
 
+🔗 Recommended Links
+[Ajuu's Resources](https://github.com/hiedanoajuu/hiedanoajuu-resources)
+
 ---
 *Thanks for visiting — Here's always a cup of coffee☕ for you!*
