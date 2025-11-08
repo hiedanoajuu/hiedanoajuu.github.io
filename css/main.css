@@ -1199,7 +1199,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #90e2f9;
+  background: #46331d;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1587,16 +1587,6 @@ pre .javascript .function {
 }
 .use-motion .collection-header {
   opacity: 0;
-}
-.post-body p a {
-  color: #309;
-  border-bottom: none;
-  border-bottom: 1px solid #309;
-}
-.post-body p a:hover {
-  color: #ff8c00;
-  border-bottom: none;
-  border-bottom: 1px solid #ff8c00;
 }
 .posts-collapse {
   margin-left: 35px;
@@ -2779,9 +2769,4 @@ pre {
 }
 .post-block {
   min-height: 130vh !important;
-}
-@font-face {
-  font-family: 'emoji';
-  src: local("Noto Color Emoji");
-  unicode-range: U+1F300-1F5FF, U+1F600-1F64F, U+1F680-1F6FF, U+2600-26FF;
 }
