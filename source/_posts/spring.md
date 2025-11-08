@@ -35,4 +35,4 @@ They ache, awaiting a new communion.
 
 > Mu Dan was a thoughtful man, fully aware of his identity as a modern intellectual. He pondered deeply on life, probing the joy and pain inside the soul. Yet he could condense his reflections into a few lines, achieving remarkable expressive power.
 >
-> *— Excerpt from Du Yunxie, Recalling Mu Dan, translated by Hiedano Ajuu.*
+> *— Excerpt from Du Yunxie, Recalling Mu Dan, translated by Ajuu Hieda.*

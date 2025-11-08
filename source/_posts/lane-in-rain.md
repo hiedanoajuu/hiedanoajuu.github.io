@@ -61,4 +61,4 @@ The lilac maiden gliding through my faint dream.
 >
 > Modern Chinese Poetry needs to have new emotions to express and suitable techniques of expression. Techniques do not mean arranging words superficially or stuffing a poem with ornate phrases.
 >
-> *— Excerpt from Dai Wanshu, Poetics, translated by Hiedano Ajuu.*
+> *— Excerpt from Dai Wanshu, Poetics, translated by Ajuu Hieda.*

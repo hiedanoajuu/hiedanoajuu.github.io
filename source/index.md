@@ -17,9 +17,9 @@ This site is primarily in English🇺🇸.
 ---
 
 📢 **Latest Updates**
+- 2025-11-08: Tweaked the website layout.
 - 2025-09-20: Translated [*The Spring*](https://ajuu.org/2025/09/20/spring/) by Mu Dan into English.
 - 2025-09-13: Translated [*A Lane in Rain*](https://ajuu.org/2025/09/13/lane-in-rain/) by Dai Wanshu into English.
-- 2025-08-23: Revamped the blog.
 
 ---
 <blockquote id="daily-quote">Loading...</blockquote>
@@ -39,8 +39,10 @@ fetch('/quotes/quotes.json')
 
 ![稗田 阿求 (Hieda no Akyuu)](/images/akyuu.jpg "稗田 阿求 (Hieda no Akyuu)")
 
-🔗 Recommended Links
-[Ajuu's Resources](https://github.com/hiedanoajuu/hiedanoajuu-resources)
+
+
+🔗 **Recommended Links**
+- [Ajuu's Resources](https://github.com/hiedanoajuu/hiedanoajuu-resources)
 
 ---
 *Thanks for visiting — Here's always a cup of coffee☕ for you!*
