@@ -14,6 +14,11 @@ Here you’ll find a blend of my passions:
 
 This site is primarily in English🇺🇸. 
 
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github-readme-stats.vercel.app/api?username=hiedanoajuu&show_icons=true&theme=radical" alt="Github Stats" height="175">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hiedanoajuu&layout=compact&theme=radical" alt="Most Used Language" height="175">
+</div>
+
 ---
 
 📢 **Latest Updates**
@@ -33,7 +38,7 @@ fetch('/quotes/quotes.json')
     document.getElementById('daily-quote').innerHTML = `"${q.quote}" <br>— ${q.author}`;
   })
   .catch(() => {
-    document.getElementById('daily-quote').innerHTML = "Failed to load quote.";
+    document.getElementById('daily-quote').innerHTML = "Failed to load quote. <br>— Ajuu Hieda";
   });
 </script>
 
@@ -45,4 +50,5 @@ fetch('/quotes/quotes.json')
 - [Ajuu's Resources](https://github.com/hiedanoajuu/hiedanoajuu-resources)
 
 ---
-*Thanks for visiting — Here's always a cup of coffee☕ for you!*
+*Thanks for visiting — Here's always a cup of coffee*☕ *for you!
+Feel free to drop me a line at [hieda@ajuu.org](mailto:hieda@ajuu.org).*
