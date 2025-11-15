@@ -44,7 +44,7 @@ npm install
 
 3. Start the server
 ```bash
-hexo server
+hexo cl && hexo g && hexo s
 ```
 
 4. Open your browser
