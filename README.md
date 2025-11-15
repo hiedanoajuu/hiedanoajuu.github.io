@@ -49,3 +49,17 @@ hexo cl && hexo g && hexo s
 
 4. Open your browser
 Navigate to <http://localhost:4000>
+
+# Contributing
+While this is my personal blog, suggestions and improvements are always welcome! Feel free to check [issues page](https://github.com/hiedanoajuu/hiedanoajuu.github.io/issues).
+
+# License
+This project is licensed under:
+- **MIT License**: Apply to all code files in this repository, unless otherwise noted. See [`LICENSE-CODE`](LICENSE-CODE).
+- **CC-BY-NC-SA**: Apply to the creative content in `source/index.md` and `source/_posts` (i.e. my blog homepage and posts).
+
+# Contact Me
+- Github: [@hiedanoajuu](https://github.com/hiedanoajuu)
+- Twitter/X: [@hiedanoajuu](https://x.com/@hiedanoajuu)
+- Blog: [ajuu.org](https://ajuu.org)
+- E-mail: [hieda@ajuu.org](mailto:hieda@ajuu.org)
