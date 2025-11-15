@@ -47,8 +47,10 @@ fetch('/quotes/quotes.json')
 
 
 🔗 **Recommended Links**
-- [Ajuu's Resources](https://github.com/hiedanoajuu/hiedanoajuu-resources)
+- [Source Code of this Site](https://github.com/hiedanoajuu/hiedanoajuu.github.io), licensed under the [MIT License](https://ajuu.org/LICENSE)
+- [Ajuu's Resources](https://github.com/hiedanoajuu/hiedanoajuu-resources), a collection of resources for share
 
 ---
+
 *Thanks for visiting — Here's always a cup of coffee*☕ *for you!
 Feel free to drop me a line at [hieda@ajuu.org](mailto:hieda@ajuu.org).*
