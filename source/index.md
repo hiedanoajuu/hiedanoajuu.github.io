@@ -14,17 +14,19 @@ Here you’ll find a blend of my passions:
 
 This site is primarily in English🇺🇸. 
 
+<!--
 <div style="display: flex; justify-content: space-between;">
     <img src="https://github-readme-stats.vercel.app/api?username=hiedanoajuu&show_icons=true&theme=radical" alt="Github Stats" height="175">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hiedanoajuu&layout=compact&theme=radical" alt="Most Used Language" height="175">
 </div>
+-->
 
 ---
 
 📢 **Latest Updates**
+- 2025-11-30: Temporarily removed [Github Stat](https://github-readme-stats.vercel.app/) Due to API [503 Error](https://github.com/anuraghazra/github-readme-stats/issues/4662).
 - 2025-11-08: Tweaked the website layout.
 - 2025-09-20: Translated [*The Spring*](https://ajuu.org/2025/09/20/spring/) by Mu Dan into English.
-- 2025-09-13: Translated [*A Lane in Rain*](https://ajuu.org/2025/09/13/lane-in-rain/) by Dai Wanshu into English.
 
 ---
 <blockquote id="daily-quote">Loading...</blockquote>
