@@ -177,7 +177,7 @@ body {
 body {
   background: var(--body-bg-color);
   color: var(--text-color);
-  font-family: 'opensans', "Noto Sans CJK", "Microsoft YaHei", sans-serif;
+  font-family: 'sourcesans', "Noto Sans CJK", "Microsoft YaHei", sans-serif;
   font-size: 1em;
   line-height: 2;
 }
@@ -193,7 +193,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'opensans', "Noto Sans CJK", "Microsoft YaHei", sans-serif;
+  font-family: 'sourcesans', "Noto Sans CJK", "Microsoft YaHei", sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 20px 0 15px;
@@ -1010,7 +1010,7 @@ pre .javascript .function {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: 'opensans', 'opensans', "Noto Sans CJK", "Microsoft YaHei", sans-serif;
+  font-family: 'sourcesans', "Noto Sans CJK", "Microsoft YaHei", sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   margin: 0;
@@ -1199,7 +1199,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ad6ac6;
+  background: #bb85bb;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1536,7 +1536,7 @@ pre .javascript .function {
   top: 0;
 }
 .post-body {
-  font-family: 'opensans', "Noto Sans CJK", "Microsoft YaHei", sans-serif;
+  font-family: 'sourcesans', "Noto Sans CJK", "Microsoft YaHei", sans-serif;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
@@ -1842,7 +1842,7 @@ pre .javascript .function {
 }
 .posts-expand .post-meta {
   color: #999;
-  font-family: 'opensans', "Noto Sans CJK", "Microsoft YaHei", sans-serif;
+  font-family: 'sourcesans', "Noto Sans CJK", "Microsoft YaHei", sans-serif;
   font-size: 0.75em;
   margin: 3px 0 60px 0;
   text-align: center;
@@ -2733,22 +2733,22 @@ pre {
 .post-block {
   opacity: 0.9;
 }
-/*侧边框的透明度设置*/
+/* Sidebar Opacity */
 .sidebar {
   background-color: transparent;
   opacity: 0.9;
 }
-/*菜单栏的透明度设置*/
+/* Menu Opacity */
 .header-inner {
   background: rgba(255,255,255,0.9);
 }
-/*如果设置了本地搜索，设置它的透明度*/
+/* Search Opacity */
 .popup {
   opacity: 0.9;
 }
 @font-face {
-  font-family: 'opensans';
-  src: url("/fonts/opensans.ttf");
+  font-family: 'sourcesans';
+  src: url("/fonts/sourcesans.otf");
 }
 @font-face {
   font-family: 'sourcecode';
@@ -2760,8 +2760,8 @@ pre {
   overflow: visible !important;
   text-overflow: unset !important;
   max-width: none !important;
-  justify-content: flex-start !important /* 左对齐 */;
-  align-items: center !important /* 垂直居中 */;
+  justify-content: flex-start !important;
+  align-items: center !important;
   text-align: left !important;
 }
 .post-body {
