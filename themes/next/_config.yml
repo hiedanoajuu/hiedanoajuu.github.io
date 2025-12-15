@@ -425,13 +425,13 @@ font:
   # Global font settings used for all elements inside <body>.
   global:
     external: true
-    family: opensans
-    size:
+    family: sourcesans
+    size: 16px
 
   # Font settings for site title (.site-title).
   title:
     external: true
-    family: opensans
+    family:
     size:
 
   # Font settings for headlines (<h1> to <h6>).
@@ -449,6 +449,7 @@ font:
   codes:
     external: true
     family: sourcecode
+    size: 14px
 
 # ---------------------------------------------------------------
 # SEO Settings

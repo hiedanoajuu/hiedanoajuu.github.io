@@ -24,9 +24,9 @@ This site is primarily in English🇺🇸.
 ---
 
 📢 **Latest Updates**
-- 2025-11-30: Temporarily removed [Github Stat](https://github-readme-stats.vercel.app/) Due to API [503 Error](https://github.com/anuraghazra/github-readme-stats/issues/4662).
+- 2025-12-15: Change the font from `Open Sans` to `Source Sans Pro`.
+- 2025-11-30: Temporarily removed [Github Stat](https://github-readme-stats.vercel.app/) due to API [503 Error](https://github.com/anuraghazra/github-readme-stats/issues/4662).
 - 2025-11-08: Tweaked the website layout.
-- 2025-09-20: Translated [*The Spring*](https://ajuu.org/2025/09/20/spring/) by Mu Dan into English.
 
 ---
 <blockquote id="daily-quote">Loading...</blockquote>
@@ -54,5 +54,5 @@ fetch('/quotes/quotes.json')
 
 ---
 
-*Thanks for visiting — Here's always a cup of coffee*☕ *for you!
+*Thanks for visiting — Here's always a cup of coffee* ☕ *for you!
 Feel free to drop me a line at [hieda@ajuu.org](mailto:hieda@ajuu.org).*
