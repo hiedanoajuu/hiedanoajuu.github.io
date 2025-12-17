@@ -24,9 +24,9 @@ This site is primarily in English🇺🇸.
 ---
 
 📢 **Latest Updates**
-- 2025-12-15: Change the font from `Open Sans` to `Source Sans Pro`.
+- 2025-12-17: Change the ways of Donate from BTC and ETH to Dogecoin.
+- 2025-12-15: Change the font from `Open Sans` to `Source Sans 3`.
 - 2025-11-30: Temporarily removed [Github Stat](https://github-readme-stats.vercel.app/) due to API [503 Error](https://github.com/anuraghazra/github-readme-stats/issues/4662).
-- 2025-11-08: Tweaked the website layout.
 
 ---
 <blockquote id="daily-quote">Loading...</blockquote>

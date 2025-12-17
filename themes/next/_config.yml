@@ -270,8 +270,8 @@ reward_settings:
   #comment: Donate comment here.
 
 reward:
-  bitcoin: /images/btc.jpg
-  Ethereum: /images/eth.jpg
+  To Donate or Not to Donate: That's a question
+  # Ethereum: /images/eth.jpg
   #paypal: /images/paypal.png
   #bitcoin: /images/bitcoin.png
 

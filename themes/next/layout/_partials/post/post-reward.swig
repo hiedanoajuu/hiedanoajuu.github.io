@@ -13,8 +13,7 @@
         {%- set translation = name %}
       {%- endif %}
       <div style="display: inline-block;">
-        <img src="{{ url_for(image) }}" alt="{{ author }} {{ translation }}">
-        <p>{{ translation }}</p>
+        <p><strong>Dogecoin</strong> DF938jcQqckfaMUSmG3i1CoMoALBnUhk5J</p>
       </div>
     {%- endfor %}
 
