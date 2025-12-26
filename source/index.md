@@ -14,17 +14,19 @@ Here you’ll find a blend of my passions:
 
 This site is primarily in English🇺🇸. 
 
+<!--
 <div style="display: flex; justify-content: space-between;">
     <img src="https://github-readme-stats.vercel.app/api?username=hiedanoajuu&show_icons=true&theme=radical" alt="Github Stats" height="175">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hiedanoajuu&layout=compact&theme=radical" alt="Most Used Language" height="175">
 </div>
+-->
 
 ---
 
 📢 **Latest Updates**
-- 2025-12-17: Changed the ways of Donate from BTC and ETH to Dogecoin; Restored [Github Stat](https://github-readme-stats.vercel.app/).
+- 2025-12-27: Written [Witch and Foreign Shikigami — 0](https://ajuu.org/2025/12/27/patchouli-system-0/).
+- 2025-12-17: Changed the ways of Donate from BTC and ETH to Dogecoin.
 - 2025-12-15: Changed the font from `Open Sans` to `Source Sans 3`.
-- 2025-11-30: Temporarily removed [Github Stat](https://github-readme-stats.vercel.app/) due to API [503 Error](https://github.com/anuraghazra/github-readme-stats/issues/4662).
 
 ---
 <blockquote id="daily-quote">Loading...</blockquote>
