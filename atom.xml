@@ -6,7 +6,7 @@
   <link href="https://ajuu.org/atom.xml" rel="self"/>
   
   <link href="https://ajuu.org/"/>
-  <updated>2025-11-07T19:36:14.559Z</updated>
+  <updated>2025-12-26T19:59:46.615Z</updated>
   <id>https://ajuu.org/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Witch and Foreign Shikigami — 0</title>
+    <link href="https://ajuu.org/2025/12/27/patchouli-system-0/"/>
+    <id>https://ajuu.org/2025/12/27/patchouli-system-0/</id>
+    <published>2025-12-27T03:51:22.000Z</published>
+    <updated>2025-12-26T19:59:46.615Z</updated>
+    
+    <content type="html"><![CDATA[<p>Scarlet Devil Mansion Library.</p><p><strong>Character</strong><br>Nitori Kawashiro<br>Patchouli Knowledge</p><hr><p><strong>Nitori</strong><br>(Carrying a heavy bag)<br>Hi, Patchouli-sama.</p><p><strong>Patchouli</strong><br>(Surprised)<br>Hi, Nitori-san. — Fancy seeing you here.</p><p><strong>Nitori</strong><br>(Sighs, putting down her bag)<br>I… I brought some strange equipment. It will be “a new type of computing spirit.”</p><p><strong>Patchouli</strong><br>(Raising a eyebow)<br>A computing spirit? Hmm.</p><p><strong>Nitori</strong><br>(Eagerly, opening the bag to reveal a bizarre, clunky contraption)<br>Behold! My latest invention: the Computing Spirit 3000! It can calculate the trajectory of moonlight, predict the movement of stars, and even… organize your library autonomously!</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Kappa&#x27;s Computing Spirit 3000</span></span><br><span class="line"><span class="comment"># Derived from Fujitsu FMV E8280 </span></span><br><span class="line"></span><br><span class="line">qemu-system-x86_64 \                        <span class="comment"># x86-64</span></span><br><span class="line">    -enable-kvm \                           <span class="comment"># KVM Option</span></span><br><span class="line">    -machine pc-i440fx-7.2 \                <span class="comment"># i440fx</span></span><br><span class="line">    -m 2048 \                               <span class="comment"># 2GB RAM</span></span><br><span class="line">    -cpu core2duo \                         <span class="comment"># Intel Core 2 Duo</span></span><br><span class="line">    -smp 1 \                                <span class="comment"># 1 Core</span></span><br><span class="line">    -bios /usr/share/qemu/bios.bin \        <span class="comment"># SeaBIOS</span></span><br><span class="line">    -drive file=vd.img,<span class="keyword">if</span>=ide,format=raw \  <span class="comment"># 40GB HDD</span></span><br><span class="line">    -vga std \                              <span class="comment"># VGA</span></span><br><span class="line">    -usb -device usb-tablet \               <span class="comment"># USB</span></span><br><span class="line">    -boot order=c</span><br></pre></td></tr></table></figure><p><strong>Patchouli</strong><br>(Raising a eyebow, peering at the device)<br>Organize my library? You do realize I already have… a filing system?</p><p><strong>Nitori</strong><br>(Leaning closer, whispering conspiratorially)<br>Ah, but this isn’t just any filing system! It’s a spirit from the world beyond — think of it as a helper that never tires, never forgets, and obeys your every command! </p><p><strong>Patchouli</strong><br>(Slightly puzzled)<br>…So, it’s some kind of… foreign shikigami?</p><p><strong>Nitori</strong><br>Exactly! And with your vast collection of magical tomes, it could… revolutionize your study habits!</p><p><strong>Patchouli</strong><br>(Thoughtful, stroking her chin)<br>…I suppose it could be useful, in theory. How much power does it require? And… can it even start?</p><p><strong>Nitori</strong><br>(Uneasily, scratching her head)<br>Well… </p><p><img src="notfound.png" alt="Not Found" title="Bootable Device Not Found"></p><p>I haven’t exactly… written the startup system yet. But it’s… ready to learn!</p><p><strong>Patchouli</strong><br>(Raising an eyebrow, sighing)<br>I see… so it’s more like… an inert artifact than a functioning spirit.</p><p>N<strong>itori</strong><br>(Suddenly excited)<br>Wait! Maybe that’s the point! This is clearly… external technology, beyond our usual methods! If we take it to Kourin, he might help it awaken!</p><p><strong>Patchouli</strong><br>(Frowning slightly)<br>I see… but I don’t really like leaving the library.</p><p><strong>Nitori</strong><br>(Beaming, undeterred)<br>No problem! I can go alone! I’ll fetch the components and learn the secrets of this… external technology! Then you’ll have your very own computing spirit!</p><p><strong>Patchouli</strong><br>(Holding the device, nodding)<br>Very well. Take it.</p><p><strong>Nitori</strong><br>(Saluting enthusiastically)<br>Understood! I’ll make it run… you’ll see!</p>]]></content>
+    
+    
+    <summary type="html">A story series of Patchouli Knowledge and Operating System</summary>
+    
+    
+    
+    <category term="Computer Science" scheme="https://ajuu.org/categories/Computer-Science/"/>
+    
+    <category term="Operating System" scheme="https://ajuu.org/categories/Computer-Science/Operating-System/"/>
+    
+    <category term="Witch and Foreign Shikigami" scheme="https://ajuu.org/categories/Computer-Science/Operating-System/Witch-and-Foreign-Shikigami/"/>
+    
+    
+    <category term="Touhou Project" scheme="https://ajuu.org/tags/Touhou-Project/"/>
+    
+    <category term="Operating System" scheme="https://ajuu.org/tags/Operating-System/"/>
+    
+    <category term="Virtual Machine" scheme="https://ajuu.org/tags/Virtual-Machine/"/>
+    
+  </entry>
   
   <entry>
     <title>The Spring</title>
