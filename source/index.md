@@ -3,6 +3,7 @@ title: Welcome!
 date: 2025-08-23 20:30:55
 type: "page"
 ---
+
 Ciallo🌟! Welcome to my little corner of the Internet!
 
 I’m Hieda no Ajuu (稗田 阿柔) — a high school student from Nanjing, China🇨🇳.
@@ -12,7 +13,8 @@ Here you’ll find a blend of my passions:
 - 📜 **Translations of History & Literature** — Explore history and culturesthrough translations of historical and literary texts, primarily from Chinese into English.
 - 💻 **Computer Science Notes** — Clear, practical, simple study notes on programming and computer science.
 
-This site is primarily in English🇺🇸. 
+This site is primarily in English🇺🇸.
+
 <!--
 <div style="display: flex; justify-content: space-between;">
     <img src="https://github-readme-stats.vercel.app/api?username=hiedanoajuu&show_icons=true&theme=radical" alt="Github Stats" height="175">
