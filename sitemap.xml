@@ -4,16 +4,7 @@
   <url>
     <loc>https://ajuu.org/index.html</loc>
     
-    <lastmod>2025-12-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ajuu.org/2025/12/27/patchouli-system-0/</loc>
-    
-    <lastmod>2025-12-26</lastmod>
+    <lastmod>2026-01-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -76,7 +67,7 @@
 
   <url>
     <loc>https://ajuu.org/</loc>
-    <lastmod>2025-12-26</lastmod>
+    <lastmod>2026-01-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -84,63 +75,42 @@
   
   <url>
     <loc>https://ajuu.org/tags/Dai-Wangshu/</loc>
-    <lastmod>2025-12-26</lastmod>
+    <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ajuu.org/tags/Translation/</loc>
-    <lastmod>2025-12-26</lastmod>
+    <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ajuu.org/tags/Modern-Chinese-Poetry/</loc>
-    <lastmod>2025-12-26</lastmod>
+    <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ajuu.org/tags/Symbolism/</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ajuu.org/tags/Touhou-Project/</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ajuu.org/tags/Operating-System/</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ajuu.org/tags/Virtual-Machine/</loc>
-    <lastmod>2025-12-26</lastmod>
+    <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ajuu.org/tags/Mu-Dan/</loc>
-    <lastmod>2025-12-26</lastmod>
+    <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ajuu.org/tags/Modernism/</loc>
-    <lastmod>2025-12-26</lastmod>
+    <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -149,35 +119,14 @@
   
   <url>
     <loc>https://ajuu.org/categories/Translations/</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ajuu.org/categories/Computer-Science/</loc>
-    <lastmod>2025-12-26</lastmod>
+    <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ajuu.org/categories/Translations/Chinese-Literature/</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ajuu.org/categories/Computer-Science/Operating-System/</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ajuu.org/categories/Computer-Science/Operating-System/Witch-and-Foreign-Shikigami/</loc>
-    <lastmod>2025-12-26</lastmod>
+    <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
