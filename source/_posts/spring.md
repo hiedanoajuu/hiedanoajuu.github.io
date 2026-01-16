@@ -28,11 +28,11 @@ The garden brims with desires, all uncannily fair.
 In their twenties, bodies tremble before unending riddles,
 As if birdsongs rise from the earth.
 You are ignited, yet belong nowhere.
-Ah — the light, the shadow, the voice, the colors — all laid bare,
+Ah—the light, the shadow, the voice, the colors—all laid bare,
 They ache, awaiting a new communion.
 
 <br>
 
 > Mu Dan was a thoughtful man, fully aware of his identity as a modern intellectual. He pondered deeply on life, probing the joy and pain inside the soul. Yet he could condense his reflections into a few lines, achieving remarkable expressive power.
 >
-> *— Excerpt from Du Yunxie, Recalling Mu Dan, translated by Ajuu Hieda.*
+> *—Excerpt from Du Yunxie, Recalling Mu Dan, translated by Ajuu Hieda.*
