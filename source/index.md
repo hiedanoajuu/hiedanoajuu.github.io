@@ -26,9 +26,9 @@ This site is primarily in English🇺🇸.
 
 📢 **Latest Updates**
 
+- 2026-01-16: Changed the License from [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) to [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
 - 2026-01-01: Temporarily removed [Github Stat](https://github-readme-stats.vercel.app/) due to API [503 Error](https://github.com/anuraghazra/github-readme-stats/issues/4662).
 - 2025-12-17: Changed the ways of Donate from BTC and ETH to Dogecoin; Restored [Github Stat](https://github-readme-stats.vercel.app/).
-- 2025-12-15: Changed the font from `Open Sans` to `Source Sans 3`.
 
 ---
 <blockquote id="daily-quote">Loading...</blockquote>
