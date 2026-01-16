@@ -56,7 +56,7 @@ While this is my personal blog, suggestions and improvements are always welcome!
 ## License
 This project is licensed under:
 - **MIT License**: Apply to all code files in this repository, unless otherwise noted. See [`LICENSE-CODE`](LICENSE-CODE).
-- **CC-BY-NC-SA**: Apply to the creative content in `source/index.md` and `source/_posts` (i.e. my blog homepage and posts).
+- **CC BY-SA**: Apply to the creative content in `source/index.md` and `source/_posts` (i.e. my blog homepage and posts).
 
 ## Contact Me
 - Github: [@hiedanoajuu](https://github.com/hiedanoajuu)
