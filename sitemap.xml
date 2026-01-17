@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ajuu.org/index.html</loc>
+    
+    <lastmod>2026-01-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ajuu.org/2025/09/20/spring/</loc>
     
     <lastmod>2026-01-16</lastmod>
@@ -12,15 +21,6 @@
   
   <url>
     <loc>https://ajuu.org/2025/09/13/lane-in-rain/</loc>
-    
-    <lastmod>2026-01-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ajuu.org/index.html</loc>
     
     <lastmod>2026-01-16</lastmod>
     
@@ -76,7 +76,7 @@
 
   <url>
     <loc>https://ajuu.org/</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -84,63 +84,63 @@
   
   <url>
     <loc>https://ajuu.org/tags/Flash-Novel/</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ajuu.org/tags/History/</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ajuu.org/tags/Touhou/</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ajuu.org/tags/Dai-Wangshu/</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ajuu.org/tags/Translation/</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ajuu.org/tags/Modern-Chinese-Poetry/</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ajuu.org/tags/Symbolism/</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ajuu.org/tags/Mu-Dan/</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ajuu.org/tags/Modernism/</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -149,21 +149,21 @@
   
   <url>
     <loc>https://ajuu.org/categories/Touhou-Project/</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ajuu.org/categories/Translations/</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ajuu.org/categories/Translations/Chinese-Literature/</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
