@@ -6,7 +6,7 @@
   <link href="https://ajuu.org/atom.xml" rel="self"/>
   
   <link href="https://ajuu.org/"/>
-  <updated>2026-01-16T13:34:29.179Z</updated>
+  <updated>2026-01-31T02:11:51.384Z</updated>
   <id>https://ajuu.org/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Why I Refuse to Buy Apple Devices</title>
+    <link href="https://ajuu.org/2026/01/31/why-i-refuse-to-buy-apple-devices/"/>
+    <id>https://ajuu.org/2026/01/31/why-i-refuse-to-buy-apple-devices/</id>
+    <published>2026-01-31T09:36:55.000Z</published>
+    <updated>2026-01-31T02:11:51.384Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="dbd_apple_watch.png" alt="5 Reasons You Should Never Buy An Apple Watch" title="5 Reasons You Should Never Buy An Apple Watch"></p><p><br/></p><blockquote><p>5 REASONS YOU SHOULD NEVER BUY AN APPLE WATCH</p><ol><li>Apple dictates which apps it can run</li><li>No way to know what it’s telling Apple about you</li><li>Profits fuel Apple’s patent bullying</li><li>No free “as in freedom” software</li><li>Apple controls your media with DRM</li></ol><p><a href="https://www.defectivebydesign.org/Apple">DefectiveByDesign.org/Apple</a><br><a href="https://creativecommons.org/licenses/by/4.0/legalcode.en">CC BY 4.0</a> SHARE!</p></blockquote><p><br/></p><pre>Date: Sat, 31 Jan 2026 01:26:14 +0000From: Ajuu Hieda <hieda@ajuu.org>To: tcook@apple.comCc: campaigns@fsf.orgSubject: Feedback on iOS DRM and software freedomDear Mr. Cook,I used to be an iPad user and have appreciated Apple's efforts in GUIand UX design.However, I'm concerned about Apple's use of DRM on iOS. Apple retainsunilateral control over software distribution. While Alternative appdistribution exists, it remains constrained. This is not a matter ofconvenience or competition, but of who ultimately controls the user'sdevice.I will not purchase or support any Apple devices until this changes. Ihope Apple listens to the voices of the customers like me and works toeliminating DRM from all your devices.Faithfully,Ajuu Hieda</pre>]]></content>
+    
+    
+    <summary type="html">An open letter to Tim Cook on DRM and user freedom, including DbD advocacy materials.</summary>
+    
+    
+    
+    <category term="Free Software" scheme="https://ajuu.org/categories/Free-Software/"/>
+    
+    
+    <category term="FSF" scheme="https://ajuu.org/tags/FSF/"/>
+    
+    <category term="Defective by Design" scheme="https://ajuu.org/tags/Defective-by-Design/"/>
+    
+    <category term="Apple" scheme="https://ajuu.org/tags/Apple/"/>
+    
+    <category term="DRM" scheme="https://ajuu.org/tags/DRM/"/>
+    
+  </entry>
   
   <entry>
     <title>Flandre in Flanders</title>
