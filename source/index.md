@@ -24,9 +24,9 @@ Here you’ll find a blend of my passions:
 
 📢 **Latest Updates**
 
-- 2026-01-16: Wrote [Flandre in Flanders](https://ajuu.org/2026/01/17/flandre-in-flanders).
+- 2026-01-31: Created [Why I Refuse to Buy Apple Devices](https://ajuu.org/2026/01/31/why-i-refuse-to-buy-apple-devices).
+- 2026-01-16: Created [Flandre in Flanders](https://ajuu.org/2026/01/17/flandre-in-flanders).
 - 2026-01-16: Changed the License from [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) to [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
-- 2026-01-01: Temporarily removed [Github Stat](https://github-readme-stats.vercel.app/) due to API [503 Error](https://github.com/anuraghazra/github-readme-stats/issues/4662).
 
 ---
 <blockquote id="daily-quote">Loading...</blockquote>
