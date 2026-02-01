@@ -24,7 +24,7 @@ Here you’ll find a blend of my passions:
 
 📢 **Latest Updates**
 
-- 2026-02-01: Created [Hollyweb](https://ajuu.org/2026/02/01/hollyweb).
+- 2026-02-01: Created [Hollyweb](https://ajuu.org/2026/02/02/hollyweb).
 - 2026-01-31: Created [Why I Refuse to Buy Apple Devices](https://ajuu.org/2026/01/31/why-i-refuse-to-buy-apple-devices).
 - 2026-01-16: Created [Flandre in Flanders](https://ajuu.org/2026/01/17/flandre-in-flanders).
 
