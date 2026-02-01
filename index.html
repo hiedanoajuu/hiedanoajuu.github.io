@@ -30,7 +30,7 @@
 <meta property="og:image" content="https://github-readme-stats.vercel.app/api/top-langs/?username=hiedanoajuu&layout=compact&theme=radical">
 <meta property="og:image" content="https://ajuu.org/images/akyuu.jpg">
 <meta property="article:published_time" content="2025-08-23T20:30:55.000Z">
-<meta property="article:modified_time" content="2026-01-31T02:16:04.587Z">
+<meta property="article:modified_time" content="2026-02-01T12:05:54.818Z">
 <meta property="article:author" content="Ajuu Hieda">
 <meta property="article:tag" content="Memories of Gensokyo">
 <meta name="twitter:card" content="summary">
@@ -231,9 +231,9 @@
 <hr>
 <p>📢 <strong>Latest Updates</strong></p>
 <ul>
+<li>2026-02-01: Created <a href="https://ajuu.org/2026/02/01/hollyweb">Hollyweb</a>.</li>
 <li>2026-01-31: Created <a href="https://ajuu.org/2026/01/31/why-i-refuse-to-buy-apple-devices">Why I Refuse to Buy Apple Devices</a>.</li>
 <li>2026-01-16: Created <a href="https://ajuu.org/2026/01/17/flandre-in-flanders">Flandre in Flanders</a>.</li>
-<li>2026-01-16: Changed the License from <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC BY-NC-SA</a> to <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA</a>.</li>
 </ul>
 <hr>
 <p><blockquote id="daily-quote">Loading...</blockquote></p>
@@ -244,10 +244,10 @@ fetch('/quotes/quotes.json')
     const today = new Date();
     const index = (today.getFullYear() * 365 + today.getMonth() * 30 + today.getDate()) % data.length;
     const q = data[index];
-    document.getElementById('daily-quote').innerHTML = `"${q.quote}" <br>— ${q.author}`;
+    document.getElementById('daily-quote').innerHTML = `"${q.quote}" <br>—${q.author}`;
   })
   .catch(() => {
-    document.getElementById('daily-quote').innerHTML = "Failed to load quote. <br>— Ajuu Hieda";
+    document.getElementById('daily-quote').innerHTML = "Failed to load quote. <br>—Ajuu Hieda";
   });
 </script>
 
@@ -336,7 +336,7 @@ fetch('/quotes/quotes.json')
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -349,7 +349,7 @@ fetch('/quotes/quotes.json')
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">13</span>
+        <span class="site-state-item-count">15</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -412,12 +412,12 @@ fetch('/quotes/quotes.json')
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="Symbols count total">3k</span>
+    <span title="Symbols count total">4k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">3 mins.</span>
+    <span title="Reading time total">4 mins.</span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a>
   </div>

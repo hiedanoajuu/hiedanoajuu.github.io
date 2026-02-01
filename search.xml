@@ -28,6 +28,26 @@
 ]]></content>
   </entry>
   <entry>
+    <title>We Don&#39;t Want the Hollyweb</title>
+    <url>/2026/02/02/hollyweb/</url>
+    <content><![CDATA[<blockquote>
+<p>“The W3C has a duty to send the DRM-peddlers packing, just as the US courts did in the case of digital TV. There is no market for DRM, no public purpose served by granting a veto to unaccountable, shortsighted media giants who dream of a world where your mouse rings a cash-register with every click and disruption is something that happens to other people, not them.”<br>―<a href="http://www.guardian.co.uk/technology/blog/2013/mar/12/tim-berners-lee-drm-cory-doctorow">Cory Doctorow</a></p>
+<p>“W3C is there to create comprehensible, publicly-implementable standards that will guarantee interoperability, not to facilitate an explosion of new mutually-incompatible software and of sites and services that can only be accessed by particular devices or applications. But EME is a proposal to bring exactly that dysfunctional dynamic into HTML5, even risking a return to the “bad old days, before the Web” of deliberately limited interoperability.”<br>―<a href="http://www.eff.org/deeplinks/2013/03/defend-open-web-keep-drm-out-w3c-standards">Peter Eckersley and Seth Schoen of the Electronic Frontier Foundation</a></p>
+</blockquote>
+<p><img src="hollyweb.jpeg" alt="Hollyweb" title="Hollyweb"></p>
+<p><em>Please share the Hollyweb image, which is copyright Free Software Foundation 2013, under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported license</a>.</em></p>
+]]></content>
+      <categories>
+        <category>Free Software</category>
+      </categories>
+      <tags>
+        <tag>FSF</tag>
+        <tag>Defective By Design</tag>
+        <tag>DRM</tag>
+        <tag>W3C</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>A Lane in Rain</title>
     <url>/2025/09/13/lane-in-rain/</url>
     <content><![CDATA[<p>By <strong>Dai Wangshu</strong><br>Translated by <strong>Ajuu Hieda</strong></p>
@@ -130,9 +150,9 @@ Ajuu Hieda
       </categories>
       <tags>
         <tag>FSF</tag>
+        <tag>DRM</tag>
         <tag>Defective by Design</tag>
         <tag>Apple</tag>
-        <tag>DRM</tag>
       </tags>
   </entry>
 </search>

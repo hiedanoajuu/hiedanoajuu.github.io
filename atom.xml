@@ -6,7 +6,7 @@
   <link href="https://ajuu.org/atom.xml" rel="self"/>
   
   <link href="https://ajuu.org/"/>
-  <updated>2026-01-31T02:11:51.384Z</updated>
+  <updated>2026-02-01T12:08:36.226Z</updated>
   <id>https://ajuu.org/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>We Don&#39;t Want the Hollyweb</title>
+    <link href="https://ajuu.org/2026/02/02/hollyweb/"/>
+    <id>https://ajuu.org/2026/02/02/hollyweb/</id>
+    <published>2026-02-01T19:55:52.000Z</published>
+    <updated>2026-02-01T12:08:36.226Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>“The W3C has a duty to send the DRM-peddlers packing, just as the US courts did in the case of digital TV. There is no market for DRM, no public purpose served by granting a veto to unaccountable, shortsighted media giants who dream of a world where your mouse rings a cash-register with every click and disruption is something that happens to other people, not them.”<br>―<a href="http://www.guardian.co.uk/technology/blog/2013/mar/12/tim-berners-lee-drm-cory-doctorow">Cory Doctorow</a></p><p>“W3C is there to create comprehensible, publicly-implementable standards that will guarantee interoperability, not to facilitate an explosion of new mutually-incompatible software and of sites and services that can only be accessed by particular devices or applications. But EME is a proposal to bring exactly that dysfunctional dynamic into HTML5, even risking a return to the “bad old days, before the Web” of deliberately limited interoperability.”<br>―<a href="http://www.eff.org/deeplinks/2013/03/defend-open-web-keep-drm-out-w3c-standards">Peter Eckersley and Seth Schoen of the Electronic Frontier Foundation</a></p></blockquote><p><img src="hollyweb.jpeg" alt="Hollyweb" title="Hollyweb"></p><p><em>Please share the Hollyweb image, which is copyright Free Software Foundation 2013, under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported license</a>.</em></p>]]></content>
+    
+    
+    <summary type="html">Voices against EME and a Hollyweb image.</summary>
+    
+    
+    
+    <category term="Free Software" scheme="https://ajuu.org/categories/Free-Software/"/>
+    
+    
+    <category term="FSF" scheme="https://ajuu.org/tags/FSF/"/>
+    
+    <category term="Defective By Design" scheme="https://ajuu.org/tags/Defective-By-Design/"/>
+    
+    <category term="DRM" scheme="https://ajuu.org/tags/DRM/"/>
+    
+    <category term="W3C" scheme="https://ajuu.org/tags/W3C/"/>
+    
+  </entry>
   
   <entry>
     <title>Why I Refuse to Buy Apple Devices</title>
@@ -35,11 +62,11 @@
     
     <category term="FSF" scheme="https://ajuu.org/tags/FSF/"/>
     
+    <category term="DRM" scheme="https://ajuu.org/tags/DRM/"/>
+    
     <category term="Defective by Design" scheme="https://ajuu.org/tags/Defective-by-Design/"/>
     
     <category term="Apple" scheme="https://ajuu.org/tags/Apple/"/>
-    
-    <category term="DRM" scheme="https://ajuu.org/tags/DRM/"/>
     
   </entry>
   
