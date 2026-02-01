@@ -24,9 +24,9 @@ Here you’ll find a blend of my passions:
 
 📢 **Latest Updates**
 
+- 2026-02-01: Created [Hollyweb](https://ajuu.org/2026/02/01/hollyweb).
 - 2026-01-31: Created [Why I Refuse to Buy Apple Devices](https://ajuu.org/2026/01/31/why-i-refuse-to-buy-apple-devices).
 - 2026-01-16: Created [Flandre in Flanders](https://ajuu.org/2026/01/17/flandre-in-flanders).
-- 2026-01-16: Changed the License from [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) to [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
 
 ---
 <blockquote id="daily-quote">Loading...</blockquote>
@@ -37,10 +37,10 @@ fetch('/quotes/quotes.json')
     const today = new Date();
     const index = (today.getFullYear() * 365 + today.getMonth() * 30 + today.getDate()) % data.length;
     const q = data[index];
-    document.getElementById('daily-quote').innerHTML = `"${q.quote}" <br>— ${q.author}`;
+    document.getElementById('daily-quote').innerHTML = `"${q.quote}" <br>—${q.author}`;
   })
   .catch(() => {
-    document.getElementById('daily-quote').innerHTML = "Failed to load quote. <br>— Ajuu Hieda";
+    document.getElementById('daily-quote').innerHTML = "Failed to load quote. <br>—Ajuu Hieda";
   });
 </script>
 
