@@ -1,7 +1,22 @@
+<div id="footer-badges-1" style="font-family: sourcecode; display: flex; align-items: center; justify-content: center; gap: 8px;">
+  <a title="Free Software Foundation" href="https://fsf.org" style="border-bottom: none;"><img src="https://static.fsf.org/nosvn/stickers/fsf.svg" alt="Free Software Foundation" style="height: 1em;"></a>
+  <a title="Defective By Design" href="https://www.defectivebydesign.org/" style="border-bottom: none;"><img src="https://static.fsf.org/dbd/AADs.png" alt="Defective By Design" style="height: 1em;"></a>
+  <a title="GNU is Not Unix" href="https://gnu.org/" style="border-bottom: none;"><img src="https://static.fsf.org/nosvn/stickers/gnu.svg" alt="GNU is Not Unix" style="height: 1em;"></a>
+  <a title="Creative Common" href="https://creativecommons.org/" style="border-bottom: none;"> </a>
+  <a title="Tor Project" href="https://torproject.org/" style="border-bottom: none;"> </a>
+  <a title="Wikiepdia" href="https://wikiepdia.org" style="border-bottom: none;"> </a>
+</div>
+
+<div id="footer-badges-2" style="font-family: sourcecode; display: flex; align-items: center; justify-content: center; gap: 8px;">
+  <a title="The C programming language" href="https://www.c-language.org" style="border-bottom: none;"> </a>
+  <a title="python" href="https://www.python.org/" style="border-bottom: none;"> </a>
+  <a title="Linux" href="https://kernel.org/" style="border-bottom: none;"> </a>
+  <a title="Arch Linux" href="https://archlinux.org/" style="border-bottom: none;"> </a>
+  <a title="GNU Compiler Collection" href="https://gcc.gnu.org/" style="border-bottom: none;"> </a>
+  <a title="git" href="https://git-scm.com/" style="border-bottom: none;">󰊢 </a>
+</div>
+
 <div id="site-runtime">
-    <span class="post-meta-item-icon">
-        <i class="fa fa-clock-o"></i>
-    </span>
     <span id="runtime"></span>
 </div>
 
@@ -55,7 +70,7 @@
             }else{
                 document.getElementById("runtime").innerHTML = "Site running for: " + diffYears + "y " + diffDays + "d " + diffHours + "h " + diffMinutes + "m " + diffSeconds + "s";
             }
-       
+
         }
     }
 
