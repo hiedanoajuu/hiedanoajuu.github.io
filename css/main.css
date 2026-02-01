@@ -1199,7 +1199,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #0e429c;
+  background: #ffa71a;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2752,7 +2752,7 @@ pre {
 }
 @font-face {
   font-family: 'sourcecode';
-  src: url("/fonts/sourcecode.otf");
+  src: url("/fonts/sourcecode.ttf");
 }
 .links-of-author-item a {
   display: flex !important;
