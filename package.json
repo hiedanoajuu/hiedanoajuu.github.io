@@ -12,6 +12,7 @@
     "version": "6.3.0"
   },
   "dependencies": {
+    "cnpm": "^9.4.0",
     "gitment": "^0.0.3",
     "hexo": "^6.3.0",
     "hexo-deployer-git": "^4.0.0",
@@ -24,7 +25,7 @@
     "hexo-generator-sitemap": "^3.0.1",
     "hexo-generator-tag": "^2.0.0",
     "hexo-lazyload-image": "^1.0.13",
-    "hexo-offline-popup": "^1.0.3",
+    "hexo-offline-popup": "file:../hexo-offline-popup-en/hexo-offline-popup-1.0.3.tgz",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-kramed": "^0.1.4",
     "hexo-renderer-stylus": "^2.1.0",

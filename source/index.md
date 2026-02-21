@@ -23,10 +23,9 @@ Here you’ll find a blend of my passions:
 ---
 
 📢 **Latest Updates**
-
+- 2026-02-20: Replaced [Colsrch/hexo-offline-popup](https://github.com/Colsrch/hexo-offline-popup) with [my own fork](https://github.com/hiedanoajuu/hexo-offline-popup-en).
 - 2026-02-06: Translated [Standing by a River](https://ajuu.org/2026/02/06/standing-by-river).
 - 2026-02-02: Created [Hollyweb](https://ajuu.org/2026/02/02/hollyweb).
-- 2026-01-31: Created [Why I Refuse to Buy Apple Devices](https://ajuu.org/2026/01/31/why-i-refuse-to-buy-apple-devices).
 
 ---
 <blockquote id="daily-quote">Loading...</blockquote>
