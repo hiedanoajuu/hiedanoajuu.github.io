@@ -87,7 +87,7 @@ footer:
 # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
 creative_commons:
   license: by-sa
-  sidebar: true
+  sidebar: false
   post: true
   language: deed.en
 
@@ -98,12 +98,12 @@ creative_commons:
 
 # Schemes
 #scheme: Muse
-#scheme: Mist
+scheme: Mist
 #scheme: Pisces
-scheme: Gemini
+#scheme: Gemini
 
 # Dark Mode
-darkmode: false
+darkmode: true
 
 
 # ---------------------------------------------------------------
@@ -117,13 +117,13 @@ darkmode: false
 # External url should start with http:// or https://
 menu:
   home: / || fa fa-home
-  #about: /about/ || fa fa-user
+  about: /about/ || fa fa-user
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
-  #schedule: /schedule/ || fa fa-calendar
-  #sitemap: /sitemap.xml || fa fa-sitemap
-  #commonweal: /404/ || fa fa-heartbeat
+  Links: /links/ || fa fa-link
+  # sitemap: /sitemap.xml || fa fa-sitemap
+  # commonweal: /404/ || fa fa-heartbeat
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
@@ -178,11 +178,11 @@ site_state: true
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
   GitHub: https://github.com/hiedanoajuu || fab fa-github
-  E-Mail: mailto:hieda@ajuu.org || fa fa-envelope
   StackOverflow: https://stackoverflow.com/users/31177062/hiedanoajuu || fab fa-stack-overflow
+  Zhihu: https://www.zhihu.com/people/hiedano_ajuu || fa fa-lightbulb
+  E-Mail: mailto:hieda@ajuu.org || fa fa-envelope
   Twitter: https://twitter.com/hiedanoajuu || fab fa-twitter
   RSS: /atom.xml || fa fa-rss
-  Zhihu: https://www.zhihu.com/people/hiedano_ajuu || fa fa-lightbulb
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
@@ -319,7 +319,7 @@ tagcloud:
   min: 12 # Minimun font size in px
   max: 30 # Maxium font size in px
   start: "#ccc" # Start color (hex, rgba, hsla or color keywords)
-  end: "#111" # End color (hex, rgba, hsla or color keywords)
+  end: "#ccc" # End color (hex, rgba, hsla or color keywords)
   amount: 200 # Amount of tags, change it if you have more than 200 tags
 
 # Google Calendar
@@ -606,7 +606,7 @@ disqusjs:
 
 # Changyan
 changyan:
-  enable: false
+  enable: falseShield
   appid:
   appkey:
   #post_meta_order: 0
@@ -927,7 +927,7 @@ vendors:
   # lazyload: //cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js
   # lazyload: //cdnjs.cloudflare.com/ajax/libs/lozad.js/1.14.0/lozad.min.js
   lazyload:
-    enable: true
+    enable: false
     onlypost: false
     loadingImg:
 
@@ -1008,8 +1008,8 @@ passage_end_tag:
 
 runtime:
   enable: true
-  create_time: "08/21/2023 16:56:00" #此处修改你的建站时间或者网站上线时间
-  start: 2023-08-23 15:24:00 +0800
+  create_time: "08/23/2025 22:16:00"
+  start: 2025-08-23 22:16:00 +0800
   mobile: false
 canvas_nest:
   enable: false

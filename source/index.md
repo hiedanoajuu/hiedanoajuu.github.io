@@ -6,12 +6,14 @@ type: "page"
 
 Ciallo🌟! Welcome to my little corner of the Internet!
 
-I’m Hieda no Ajuu (稗田 阿柔) — a high school student from Nanjing, China🇨🇳.
+I’m Hieda no Ajuu (稗田 阿柔)—a high school student from Nanjing, China🇨🇳.
 Here you’ll find a blend of my passions:
 
-- 🎮 **Touhou Project Fanworks** — Dive into my stories and creations inspired by the Touhou universe and the real world.
-- 📜 **Translations of History & Literature** — Explore history and cultures through translations of historical and literary texts.
-- 💻 **Computer Science Notes** — Simple study notes on programming and computer science.
+- 🎮 **Touhou Project Fanworks** — Dive into my stories and creations inspired by the Touhou universe as well as real-world experiences.
+- 📜 **Translations of History & Literature** — Explore history and culture through my translations of historical and literary texts.
+- 💻 **Computer Science Notes** — Read my study notes on programming, computer science, and free/libre and open source software.
+
+[For more about me and this site →](/about)
 
 <!--
 <div style="display: flex; justify-content: space-between;">
@@ -22,7 +24,8 @@ Here you’ll find a blend of my passions:
 
 ---
 
-📢 **Latest Updates**
+**📢 Latest Updates**
+- 2026-02-21: Overhauled the website theme (from Gemini to Mist, from light mode to dark mode).
 - 2026-02-20: Replaced [Colsrch/hexo-offline-popup](https://github.com/Colsrch/hexo-offline-popup) with [my own fork](https://github.com/hiedanoajuu/hexo-offline-popup-en).
 - 2026-02-06: Translated [Standing by a River](https://ajuu.org/2026/02/06/standing-by-river).
 - 2026-02-02: Created [Hollyweb](https://ajuu.org/2026/02/02/hollyweb).
@@ -45,13 +48,7 @@ fetch('/quotes/quotes.json')
 
 ![稗田 阿求 (Hieda no Akyuu)](/images/akyuu.jpg "稗田 阿求 (Hieda no Akyuu)")
 
-
-
-🔗 **Recommended Links**
-- [Source Code of this Site](https://github.com/hiedanoajuu/hiedanoajuu.github.io), licensed under the [MIT License](https://ajuu.org/LICENSE)
-- [Ajuu's Resources](https://github.com/hiedanoajuu/hiedanoajuu-resources), a collection of resources for share
-
 ---
 
-*Thanks for visiting — Here's always a cup of coffee* ☕ *for you!
-Feel free to drop me a line at [hieda@ajuu.org](mailto:hieda@ajuu.org).*
+*Thanks for visiting — here's always a cup of coffee* ☕*for you!*
+*Feel free to drop me a line at [hieda@ajuu.org](mailto:hieda@ajuu.org).*

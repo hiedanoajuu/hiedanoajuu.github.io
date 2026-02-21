@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ config.language }}">
 <head>
-  <link rel="stylesheet" href="/dist/APlayer.min.css">
   {{ partial('_partials/head/head.swig', {}, {cache: theme.cache.enable}) }}
   {% include '_partials/head/head-unique.swig' %}
   {{- next_inject('head') }}
@@ -11,11 +10,6 @@
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
-  <!-- aplayer -->
-  <div id="aplayer"></div>
-  <script type="text/javascript" src="/dist/APlayer.min.js"></script>
-  <script type="text/javascript" src="/dist/music.js"></script>
-
   <div class="container{%- if theme.motion.enable %} use-motion{%- endif %}">
     <div class="headband"></div>
 

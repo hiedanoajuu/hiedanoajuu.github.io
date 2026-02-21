@@ -1,7 +1,3 @@
-<div id="footer-badges-1" style="font-family: sourcecode; display: flex; align-items: center; justify-content: center; gap: 8px;">
-  <a title="Free Software Foundation" href="https://fsf.org" style="border-bottom: none;"><img src="https://static.fsf.org/nosvn/stickers/fsf.svg" alt="Free Software Foundation" style="height: 1em;"></a>
-  <a title="Defective By Design" href="https://www.defectivebydesign.org/" style="border-bottom: none;"><img src="https://static.fsf.org/dbd/AADs.png" alt="Defective By Design" style="height: 1em;"></a>
-</div>
 
 <div id="site-runtime">
     <span id="runtime"></span>

@@ -16,17 +16,17 @@ code {
 }
 /* Sidebar Opacity */
 .sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: transparent;
     opacity: 0.9;
+    border-right: 2px solid #222;
 }
 /* Menu Opacity */
-.header-inner {
-    background: rgba(255,255,255,0.9);
-}
-/* Search Opacity */
-.popup {
+/*.header-inner {
     opacity: 0.9;
-}
+}*/
 @font-face{
     font-family: 'sourcesans';
     src: url('/fonts/sourcesans.otf');   
@@ -35,16 +35,24 @@ code {
     font-family: 'sourcecode';
     src: url('/fonts/sourcecode.ttf');   
 }
-.links-of-author-item a {
-  display: flex !important;
-  white-space: nowrap !important;
-  overflow: visible !important;
-  text-overflow: unset !important;
-  max-width: none !important;
-  justify-content: flex-start !important;
-  align-items: center !important;
-  text-align: left !important;
+.links-of-author-item{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  white-space: nowrap;
 }
+
+.links-of-author{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  grid-template-rows: auto auto;
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+}
+
+
 .post-body {
   min-height: 100vh !important;
 }
