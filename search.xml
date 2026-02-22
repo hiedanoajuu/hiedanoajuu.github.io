@@ -24,17 +24,43 @@
   <entry>
     <title>Hello World!</title>
     <url>/2025/08/24/hello-world/</url>
-    <content><![CDATA[<p>Hello World!</p>
+    <content><![CDATA[<p>Hello <code>World</code> !</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>E</mi><mo>=</mo><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">E = mc^2
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8641079999999999em;vertical-align:0em;"></span><span class="mord mathnormal">m</span><span class="mord"><span class="mord mathnormal">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></p>
+<div id="chart1" style="width:80%;height:400px;margin:auto;"></div>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<script>
+const dom = document.getElementById('chart1');
+const myChart = echarts.init(dom, 'dark');
+myChart.setOption({
+  backgroundColor: '#282828',
+  title: { text: 'ECharts Demo' },
+  xAxis: { data: ['A','B','C','D'] },
+  yAxis: {},
+  series: [{ type: 'bar', data: [5,20,36,10] }]
+});
+window.addEventListener('resize', () => myChart.resize());
+</script>
+<pre class="mermaid" style="text-align: center;">
+            
+            %%{init: {"theme":"dark", "themeVariables": {  "edgeLabelBackground": "transparent", "primaryBorder": "transparent", "secondaryBorder": "transparent", "tertiaryBorder": "transparent", "primaryColor":"#fff", "edgeLabelBackground":"#222", "lineColor":"#fff"}}}%%
+graph TD
+    A(Start) --> B[Process]
+    B --> C(End)
+          </pre>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;hello world\n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 ]]></content>
   </entry>
   <entry>
     <title>We Don&#39;t Want the Hollyweb</title>
     <url>/2026/02/02/hollyweb/</url>
     <content><![CDATA[<blockquote>
-<p>“The W3C has a duty to send the DRM-peddlers packing, just as the US courts did in the case of digital TV. There is no market for DRM, no public purpose served by granting a veto to unaccountable, shortsighted media giants who dream of a world where your mouse rings a cash-register with every click and disruption is something that happens to other people, not them.”<br>―<a href="http://www.guardian.co.uk/technology/blog/2013/mar/12/tim-berners-lee-drm-cory-doctorow">Cory Doctorow</a></p>
-<p>“W3C is there to create comprehensible, publicly-implementable standards that will guarantee interoperability, not to facilitate an explosion of new mutually-incompatible software and of sites and services that can only be accessed by particular devices or applications. But EME is a proposal to bring exactly that dysfunctional dynamic into HTML5, even risking a return to the “bad old days, before the Web” of deliberately limited interoperability.”<br>―<a href="http://www.eff.org/deeplinks/2013/03/defend-open-web-keep-drm-out-w3c-standards">Peter Eckersley and Seth Schoen of the Electronic Frontier Foundation</a></p>
+<p>“The W3C has a duty to send the DRM-peddlers packing, just as the US courts did in the case of digital TV. There is no market for DRM, no public purpose served by granting a veto to unaccountable, shortsighted media giants who dream of a world where your mouse rings a cash-register with every click and disruption is something that happens to other people, not them.”<br />
+―<a href="http://www.guardian.co.uk/technology/blog/2013/mar/12/tim-berners-lee-drm-cory-doctorow">Cory Doctorow</a></p>
+<p>“W3C is there to create comprehensible, publicly-implementable standards that will guarantee interoperability, not to facilitate an explosion of new mutually-incompatible software and of sites and services that can only be accessed by particular devices or applications. But EME is a proposal to bring exactly that dysfunctional dynamic into HTML5, even risking a return to the “bad old days, before the Web” of deliberately limited interoperability.”<br />
+―<a href="http://www.eff.org/deeplinks/2013/03/defend-open-web-keep-drm-out-w3c-standards">Peter Eckersley and Seth Schoen of the Electronic Frontier Foundation</a></p>
 </blockquote>
-<p><img src="hollyweb.jpeg" alt="Hollyweb" title="Hollyweb"></p>
+<p><img src="hollyweb.jpeg" alt="Hollyweb" title="Hollyweb" /></p>
 <p><em>Please share the Hollyweb image, which is copyright Free Software Foundation 2013, under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported license</a>.</em></p>
 ]]></content>
       <categories>
@@ -50,22 +76,44 @@
   <entry>
     <title>A Lane in Rain</title>
     <url>/2025/09/13/lane-in-rain/</url>
-    <content><![CDATA[<p>By <strong>Dai Wangshu</strong><br>Translated by <strong>Ajuu Hieda</strong></p>
-<p>Beneath an oiled-paper umbrella, I linger<br>Down a long and lonely lane.<br>I long to meet once more<br>The lilac maiden sighing in the rain.</p>
-<p>With lilac’s color,<br>Lilac’s fragrance,<br>Lilac’s <em>tristesse</em>,<br>Her sorrow whispers.</p>
-<p>She drifts along the lane,<br>Umbrella in her hand.<br>Silent steps echo mine.<br>As if we share the same gloom.</p>
-<p>In stillness, she approaches,<br>Casting a sighing glance at my way.</p>
-<p>She drifts past,<br>A mere dream in the mist.</p>
-<p>As a petal floats past the dream,<br>She drifts past me, fading away,<br>Toward the ruined fence<br>And the alley in the rain. </p>
-<p>Amid the blue notes of rain,<br>Her color, her fragrance fade,<br>Even the lilac’s <em>tristesse</em><br>Gone with her sighing glance.</p>
-<p>Beneath an oiled-paper umbrella, I linger<br>Down a long and lonely lane.<br>I long to meet once more<br>The lilac maiden gliding through my faint dream.</p>
-<p><br></p>
-<blockquote>
-<p>The rhythm of a poem lies not in the words themselves, but in the emotion they convey.</p>
-<p>Strict rhythm and forced words can spoil the emotion, rendering it unnatural. It is as if putting oneself in someone else’s shoes, bending emotion to rigid and shallow rules. The inferior mutilate themselves to fit the shoes (a Chinese metaphor for acting in a Procrustean way). The clever choose the pair that fits. The wise craft their own to their measure.</p>
-<p>Modern Chinese Poetry needs to have new emotions to express and suitable techniques of expression. Techniques do not mean arranging words superficially or stuffing a poem with ornate phrases.</p>
-<p><em>—Excerpt from Dai Wanshu, Poetics, translated by Ajuu Hieda.</em></p>
-</blockquote>
+    <content><![CDATA[<p>By <strong>Dai Wangshu</strong><br />
+Translated by <strong>Ajuu Hieda</strong></p>
+<p>Beneath an oiled-paper umbrella, I linger<br />
+Down a long and lonely lane.<br />
+I long to meet once more<br />
+The lilac maiden sighing in the rain.</p>
+<p>With lilac’s color,<br />
+Lilac’s fragrance,<br />
+Lilac’s <em>tristesse</em>,<br />
+Her sorrow whispers.</p>
+<p>She drifts along the lane,<br />
+Umbrella in her hand.<br />
+Silent steps echo mine.<br />
+As if we share the same gloom.</p>
+<p>In stillness, she approaches,<br />
+Casting a sighing glance at my way.</p>
+<p>She drifts past,<br />
+A mere dream in the mist.</p>
+<p>As a petal floats past the dream,<br />
+She drifts past me, fading away,<br />
+Toward the ruined fence<br />
+And the alley in the rain.</p>
+<p>Amid the blue notes of rain,<br />
+Her color, her fragrance fade,<br />
+Even the lilac’s <em>tristesse</em><br />
+Gone with her sighing glance.</p>
+<p>Beneath an oiled-paper umbrella, I linger<br />
+Down a long and lonely lane.<br />
+I long to meet once more<br />
+The lilac maiden gliding through my faint dream.</p>
+<br>
+> The rhythm of a poem lies not in the words themselves, but in the emotion they convey.
+>
+> Strict rhythm and forced words can spoil the emotion, rendering it unnatural. It is as if putting oneself in someone else's shoes, bending emotion to rigid and shallow rules. The inferior mutilate themselves to fit the shoes (a Chinese metaphor for acting in a Procrustean way). The clever choose the pair that fits. The wise craft their own to their measure.
+>
+> Modern Chinese Poetry needs to have new emotions to express and suitable techniques of expression. Techniques do not mean arranging words superficially or stuffing a poem with ornate phrases.
+>
+> *—Excerpt from Dai Wanshu, Poetics, translated by Ajuu Hieda.*
 ]]></content>
       <categories>
         <category>Translations</category>
@@ -81,10 +129,20 @@
   <entry>
     <title>The Spring</title>
     <url>/2025/09/20/spring/</url>
-    <content><![CDATA[<p>By <strong>Mu Dan</strong><br>Translated by <strong>Ajuu Hieda</strong></p>
-<p>Green flames flicker across the grass,<br>As if longing to embrace the flowers.<br>Flowers stretch upward, against the earth.<br>When warm wind stirs both joy and fret,<br>You wake and fling the windows open to the air.<br>The garden brims with desires, all uncannily fair.</p>
-<p>In their twenties, bodies tremble before unending riddles,<br>As if birdsongs rise from the earth.<br>You are ignited, yet belong nowhere.<br>Ah—the light, the shadow, the voice, the colors—all laid bare,<br>They ache, awaiting a new communion.</p>
-<p><br></p>
+    <content><![CDATA[<p>By <strong>Mu Dan</strong><br />
+Translated by <strong>Ajuu Hieda</strong></p>
+<p>Green flames flicker across the grass,<br />
+As if longing to embrace the flowers.<br />
+Flowers stretch upward, against the earth.<br />
+When warm wind stirs both joy and fret,<br />
+You wake and fling the windows open to the air.<br />
+The garden brims with desires, all uncannily fair.</p>
+<p>In their twenties, bodies tremble before unending riddles,<br />
+As if birdsongs rise from the earth.<br />
+You are ignited, yet belong nowhere.<br />
+Ah—the light, the shadow, the voice, the colors—all laid bare,<br />
+They ache, awaiting a new communion.</p>
+<br>
 <blockquote>
 <p>Mu Dan was a thoughtful man, fully aware of his identity as a modern intellectual. He pondered deeply on life, probing the joy and pain inside the soul. Yet he could condense his reflections into a few lines, achieving remarkable expressive power.</p>
 <p><em>—Excerpt from Du Yunxie, Recalling Mu Dan, translated by Ajuu Hieda.</em></p>
@@ -104,10 +162,25 @@
   <entry>
     <title>Standing by a River</title>
     <url>/2026/02/06/standing-by-river/</url>
-    <content><![CDATA[<p>By <strong>Changyao</strong><br>Translated by <strong>Ajuu Hieda</strong></p>
-<p>Standing by the river<br>We bathed in the mutual caress of our fingers<br>Like horses on the grass<br>Brushing one another’s coats with their teeth</p>
-<p>Don’t worry about flowers fading:<br>In their undeceived essence<br>the bodies of father and son share the same fullness.<br>Jasmine rings rest on the same pump necks<br>of mother and daughter.</p>
-<p>Standing by the river, we bathed in the mutual caress of our fingers.<br>This word was honest, as if a poem had lost its age.<br>We placed helmets on each other.<br>We draped clothes patterned with snakes for each other.<br>Then we returned to the road.<br>From the curves and straight lines of waists and hips<br>We recognized where we belonged.<br>Ahead, a beautiful stream.</p>
+    <content><![CDATA[<p>By <strong>Changyao</strong><br />
+Translated by <strong>Ajuu Hieda</strong></p>
+<p>Standing by the river<br />
+We bathed in the mutual caress of our fingers<br />
+Like horses on the grass<br />
+Brushing one another’s coats with their teeth</p>
+<p>Don’t worry about flowers fading:<br />
+In their undeceived essence<br />
+the bodies of father and son share the same fullness.<br />
+Jasmine rings rest on the same pump necks<br />
+of mother and daughter.</p>
+<p>Standing by the river, we bathed in the mutual caress of our fingers.<br />
+This word was honest, as if a poem had lost its age.<br />
+We placed helmets on each other.<br />
+We draped clothes patterned with snakes for each other.<br />
+Then we returned to the road.<br />
+From the curves and straight lines of waists and hips<br />
+We recognized where we belonged.<br />
+Ahead, a beautiful stream.</p>
 ]]></content>
       <categories>
         <category>Translations</category>
@@ -122,8 +195,8 @@
   <entry>
     <title>Why I Refuse to Buy Apple Devices</title>
     <url>/2026/01/31/why-i-refuse-to-buy-apple-devices/</url>
-    <content><![CDATA[<p><img src="dbd_apple_watch.png" alt="5 Reasons You Should Never Buy An Apple Watch" title="5 Reasons You Should Never Buy An Apple Watch"></p>
-<p><br/></p>
+    <content><![CDATA[<p><img src="dbd_apple_watch.png" alt="5 Reasons You Should Never Buy An Apple Watch" title="5 Reasons You Should Never Buy An Apple Watch" /></p>
+<br/>
 <blockquote>
 <p>5 REASONS YOU SHOULD NEVER BUY AN APPLE WATCH</p>
 <ol>
@@ -133,9 +206,10 @@
 <li>No free “as in freedom” software</li>
 <li>Apple controls your media with DRM</li>
 </ol>
-<p><a href="https://www.defectivebydesign.org/Apple">DefectiveByDesign.org/Apple</a><br><a href="https://creativecommons.org/licenses/by/4.0/legalcode.en">CC BY 4.0</a> SHARE!</p>
+<p><a href="https://www.defectivebydesign.org/Apple">DefectiveByDesign.org/Apple</a><br />
+<a href="https://creativecommons.org/licenses/by/4.0/legalcode.en">CC BY 4.0</a> SHARE!</p>
 </blockquote>
-<p><br/></p>
+<br/>
 <pre>
 Date: Sat, 31 Jan 2026 01:26:14 +0000
 From: Ajuu Hieda <hieda@ajuu.org>
@@ -161,7 +235,6 @@ eliminating DRM from all your devices.
 Faithfully,
 Ajuu Hieda
 </pre>
-
 ]]></content>
       <categories>
         <category>Free Software</category>

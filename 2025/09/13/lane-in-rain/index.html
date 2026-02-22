@@ -271,22 +271,44 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>By <strong>Dai Wangshu</strong><br>Translated by <strong>Ajuu Hieda</strong></p>
-<p>Beneath an oiled-paper umbrella, I linger<br>Down a long and lonely lane.<br>I long to meet once more<br>The lilac maiden sighing in the rain.</p>
-<p>With lilac’s color,<br>Lilac’s fragrance,<br>Lilac’s <em>tristesse</em>,<br>Her sorrow whispers.</p>
-<p>She drifts along the lane,<br>Umbrella in her hand.<br>Silent steps echo mine.<br>As if we share the same gloom.</p>
-<p>In stillness, she approaches,<br>Casting a sighing glance at my way.</p>
-<p>She drifts past,<br>A mere dream in the mist.</p>
-<p>As a petal floats past the dream,<br>She drifts past me, fading away,<br>Toward the ruined fence<br>And the alley in the rain. </p>
-<p>Amid the blue notes of rain,<br>Her color, her fragrance fade,<br>Even the lilac’s <em>tristesse</em><br>Gone with her sighing glance.</p>
-<p>Beneath an oiled-paper umbrella, I linger<br>Down a long and lonely lane.<br>I long to meet once more<br>The lilac maiden gliding through my faint dream.</p>
-<p><br></p>
-<blockquote>
-<p>The rhythm of a poem lies not in the words themselves, but in the emotion they convey.</p>
-<p>Strict rhythm and forced words can spoil the emotion, rendering it unnatural. It is as if putting oneself in someone else’s shoes, bending emotion to rigid and shallow rules. The inferior mutilate themselves to fit the shoes (a Chinese metaphor for acting in a Procrustean way). The clever choose the pair that fits. The wise craft their own to their measure.</p>
-<p>Modern Chinese Poetry needs to have new emotions to express and suitable techniques of expression. Techniques do not mean arranging words superficially or stuffing a poem with ornate phrases.</p>
-<p><em>—Excerpt from Dai Wanshu, Poetics, translated by Ajuu Hieda.</em></p>
-</blockquote>
+        <p>By <strong>Dai Wangshu</strong><br />
+Translated by <strong>Ajuu Hieda</strong></p>
+<p>Beneath an oiled-paper umbrella, I linger<br />
+Down a long and lonely lane.<br />
+I long to meet once more<br />
+The lilac maiden sighing in the rain.</p>
+<p>With lilac’s color,<br />
+Lilac’s fragrance,<br />
+Lilac’s <em>tristesse</em>,<br />
+Her sorrow whispers.</p>
+<p>She drifts along the lane,<br />
+Umbrella in her hand.<br />
+Silent steps echo mine.<br />
+As if we share the same gloom.</p>
+<p>In stillness, she approaches,<br />
+Casting a sighing glance at my way.</p>
+<p>She drifts past,<br />
+A mere dream in the mist.</p>
+<p>As a petal floats past the dream,<br />
+She drifts past me, fading away,<br />
+Toward the ruined fence<br />
+And the alley in the rain.</p>
+<p>Amid the blue notes of rain,<br />
+Her color, her fragrance fade,<br />
+Even the lilac’s <em>tristesse</em><br />
+Gone with her sighing glance.</p>
+<p>Beneath an oiled-paper umbrella, I linger<br />
+Down a long and lonely lane.<br />
+I long to meet once more<br />
+The lilac maiden gliding through my faint dream.</p>
+<br>
+> The rhythm of a poem lies not in the words themselves, but in the emotion they convey.
+>
+> Strict rhythm and forced words can spoil the emotion, rendering it unnatural. It is as if putting oneself in someone else's shoes, bending emotion to rigid and shallow rules. The inferior mutilate themselves to fit the shoes (a Chinese metaphor for acting in a Procrustean way). The clever choose the pair that fits. The wise craft their own to their measure.
+>
+> Modern Chinese Poetry needs to have new emotions to express and suitable techniques of expression. Techniques do not mean arranging words superficially or stuffing a poem with ornate phrases.
+>
+> *—Excerpt from Dai Wanshu, Poetics, translated by Ajuu Hieda.*
 
     </div>
 
@@ -508,7 +530,7 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">4 mins.</span>
+    <span title="Reading time total">5 mins.</span>
 </div>
   
 <div id="site-runtime">
@@ -592,7 +614,6 @@
 
   
   <script src="/lib/anime.min.js"></script>
-  <script src="/lib/pjax/pjax.min.js"></script>
 
 <script src="/js/utils.js"></script>
 
@@ -601,65 +622,6 @@
 
 
 <script src="/js/next-boot.js"></script>
-
-  <script>
-var pjax = new Pjax({
-  selectors: [
-    'head title',
-    '#page-configurations',
-    '.content-wrap',
-    '.post-toc-wrap',
-    '.languages',
-    '#pjax'
-  ],
-  switches: {
-    '.post-toc-wrap': Pjax.switches.innerHTML
-  },
-  analytics: false,
-  cacheBust: false,
-  scrollTo : !CONFIG.bookmark.enable
-});
-
-window.addEventListener('pjax:success', () => {
-  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
-    var code = element.text || element.textContent || element.innerHTML || '';
-    var parent = element.parentNode;
-    parent.removeChild(element);
-    var script = document.createElement('script');
-    if (element.id) {
-      script.id = element.id;
-    }
-    if (element.className) {
-      script.className = element.className;
-    }
-    if (element.type) {
-      script.type = element.type;
-    }
-    if (element.src) {
-      script.src = element.src;
-      // Force synchronous loading of peripheral JS.
-      script.async = false;
-    }
-    if (element.dataset.pjax !== undefined) {
-      script.dataset.pjax = '';
-    }
-    if (code !== '') {
-      script.appendChild(document.createTextNode(code));
-    }
-    parent.appendChild(script);
-  });
-  NexT.boot.refresh();
-  // Define Motion Sequence & Bootstrap Motion.
-  if (CONFIG.motion.enable) {
-    NexT.motion.integrator
-      .init()
-      .add(NexT.motion.middleWares.subMenu)
-      .add(NexT.motion.middleWares.postList)
-      .bootstrap();
-  }
-  NexT.utils.updateSidebarPosition();
-});
-</script>
 
 
 
@@ -682,14 +644,26 @@ window.addEventListener('pjax:success', () => {
 
 
 
+<script>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme    : 'dark',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
 
 
-    <div id="pjax">
   
 
   
 
   
 
-    </div>
+
 <script async>window.onload=function(){var a=document.createElement('script'),b=document.getElementsByTagName('script')[0];a.type='text/javascript',a.async=!0,a.src='/sw-register.js?v='+Date.now(),b.parentNode.insertBefore(a,b)};</script></body></html>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://ajuu.org/2025/08/24/hello-world/</loc>
+    <lastmod>2026-02-22</lastmod>
+  </url>
+  <url>
     <loc>https://ajuu.org/2026/02/06/standing-by-river/</loc>
     <lastmod>2026-02-06</lastmod>
   </url>
@@ -23,9 +27,5 @@
   <url>
     <loc>https://ajuu.org/2026/01/17/flandre-in-flanders/</loc>
     <lastmod>2026-01-16</lastmod>
-  </url>
-  <url>
-    <loc>https://ajuu.org/2025/08/24/hello-world/</loc>
-    <lastmod>2025-08-23</lastmod>
   </url>
 </urlset> 
