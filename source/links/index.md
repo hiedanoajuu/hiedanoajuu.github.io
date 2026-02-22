@@ -40,8 +40,12 @@ type: "page"
 ## Programming Language
 - [C](https://www.c-language.org/) (c-language.org) is a general-purpose high-level programming language suitable for low-level programming, in other words: a system programming language. 
 - [JavaScript](https://tc39.es/) (tc39.es) is one of the world's most widely used general-purpose programming languages.
-- [LaTeX](https://latex-project.org/) (latex-project.org) is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. 
 - [Python](https://www.python.org/) (python.org) is powerful... and fast; plays well with others; runs everywhere; is friendly & easy to learn; is Open.
+
+## LaTeX
+- [KaTeX](https://katex.org/) (katex.org) is the fastest math typesetting library for the web. 
+- [LaTeX](https://latex-project.org/) (latex-project.org) is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. 
+- [Mathjax](https://www.mathjax.org/) (mathjax.org) is a JavaScript display engine for mathematics that works in all browsers.
 
 # Free/Libre and Open Source Software
 - [The Document Foundation](https://www.documentfoundation.org/) (documentfoundation.org) is an independent self-governing meritocratic entity, created by a large group of Free Software advocates, in the form of a charitable Foundation under German law (gemeinnützige rechtsfähige Stiftung des bürgerlichen Rechts).

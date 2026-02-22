@@ -131,9 +131,6 @@ search:
 
 sitemap:
   path: sitemap.xml
-baidusitemap:
-  path: baidusitemap.xml
-
 
 service_worker:
   maximumFileSizeToCacheInBytes: 5242880
@@ -142,3 +139,16 @@ service_worker:
   stripPrefix: public
   verbose: true
 
+markdown_it_plus:
+  highlight: true
+  html: true
+  xhtmlOut: true
+  breaks: true
+  langPrefix:
+  linkify: true
+  typographer: true
+  quotes: '“”‘’'
+  pre_class: highlight
+  plugins:
+    - 'markdown-it-katex'
+    - 'markdown-it-echarts'
