@@ -46,6 +46,8 @@ fetch('/quotes/quotes.json')
   });
 </script>
 
+<br />
+
 ![稗田 阿求 (Hieda no Akyuu)](/images/akyuu.jpg "稗田 阿求 (Hieda no Akyuu)")
 
 ---
