@@ -6,12 +6,12 @@ type: "page"
 
 Ciallo🌟! Welcome to my little corner of the Internet!
 
-I’m Hieda no Ajuu (稗田 阿柔)—a high school student from Nanjing, China🇨🇳.
+I’m Hieda no Ajuu (稗田 阿柔)—a high school student from Nanjing, China.
 Here you’ll find a blend of my passions:
 
-- 🎮 **Touhou Project Fanworks** — Dive into my stories and creations inspired by the Touhou universe as well as real-world experiences.
-- 📜 **Translations of History & Literature** — Explore history and culture through my translations of historical and literary texts.
-- 💻 **Computer Science Notes** — Read my study notes on programming, computer science, and free/libre and open source software.
+- **Touhou Project Fanworks** — Dive into my stories and creations inspired by the Touhou universe as well as real-world experiences.
+- **Translations of History & Literature** — Explore history and culture through my translations of historical and literary texts.
+- **Computer Science Notes** — Read my study notes on programming, computer science, and free/libre and open source software.
 
 [For more about me and this site →](/about)
 
